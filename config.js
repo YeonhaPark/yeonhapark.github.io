@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://yeonhapark.github.io/',
-  title: '행복하게 코딩하기',
+  title: 'Yona\'s Coding Room',
   subtitle: '개발 공부하면서 중요한 내용들을 정리하고 공유할 예정입니다',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -25,12 +25,12 @@ module.exports = {
   author: {
     name: 'Park Yeonha',
     photo: '/profile.jpg',
-    bio: 'I love JavaScript, React and Responsive Design!',
+    bio: 'Everyday is a journey with JavaScript, React, Gatsby, Responsive Web Design and with more things to learn!',
     contacts: {
-      email: '#',
+      email: 'yonaprisca@gmail.com',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'https://github.com/YeonhaPark',
       rss: '#',
       vkontakte: '#'
     }

@@ -10,6 +10,7 @@ import { useSiteMetadata, useCategoriesList } from '../hooks';
 const CategoriesListTemplate = () => {
   const { title, subtitle } = useSiteMetadata();
   const categories = useCategoriesList();
+  console.log(categories);
 
   return (
     <Layout title={`Categories - ${title}`} description={subtitle}>

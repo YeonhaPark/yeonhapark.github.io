@@ -10,7 +10,9 @@ type Props = {
   },
 };
 
-const Contacts = ({ contacts }: Props) => (
+const Contacts = ({ contacts }: Props) => {
+  console.log(contacts,'dsdf')
+  return (
   <div className={styles['contacts']}>
     <ul className={styles['contacts__list']}>
       {Object.keys(contacts).map((name) => (
@@ -27,6 +29,7 @@ const Contacts = ({ contacts }: Props) => (
       ))}
     </ul>
   </div>
-);
+  )
+};
 
 export default Contacts;

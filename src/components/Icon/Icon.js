@@ -9,10 +9,11 @@ type Props = {
   }
 };
 
-const Icon = ({ icon }: Props) => (
+const Icon = ({ icon }: Props) => {
+  return(
   <svg className={styles['icon']} viewBox={icon.viewBox}>
     <path d={icon.path} />
   </svg>
-);
-
+  )
+}
 export default Icon;
