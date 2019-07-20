@@ -1,4 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yona's Coding Room]]></title><description><![CDATA[개발 공부하면서 중요한 내용들을 정리하고 공유할 예정입니다]]></description><link>https://yeonhapark.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 18 Jul 2019 12:21:45 GMT</lastBuildDate><item><title><![CDATA[TIL - 자바스크립트 스코프(Scope) ]]></title><description><![CDATA[스코프란 자바스크립트 런타임 내의 코드에 있는 변수나 함수 혹은 객체에 대한 접근성을 일컫는다.]]></description><link>https://yeonhapark.github.io//posts/javascript-scope/</link><guid isPermaLink="false">https://yeonhapark.github.io//posts/javascript-scope/</guid><pubDate>Thu, 18 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;scope스코프&quot;&gt;&lt;a href=&quot;#scope%EC%8A%A4%EC%BD%94%ED%94%84&quot; aria-label=&quot;scope스코프 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Scope(스코프)&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yona's Coding Room]]></title><description><![CDATA[개발 공부하면서 중요한 내용들을 정리하고 공유할 예정입니다]]></description><link>https://yeonhapark.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 20 Jul 2019 15:55:56 GMT</lastBuildDate><item><title><![CDATA[TIL - 자바스크립트 실행 컨텍스트(Execution Context)와 호이스팅(Hoisting) ]]></title><description><![CDATA[자바스크립트 코드가 실행되는 환경인 실행 컨텍스트와 호이스팅에 대해 정리]]></description><link>https://yeonhapark.github.io//posts/javascript-executioncontext-hoisting/</link><guid isPermaLink="false">https://yeonhapark.github.io//posts/javascript-executioncontext-hoisting/</guid><pubDate>Sat, 20 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;실행-문맥&quot;&gt;&lt;a href=&quot;#%EC%8B%A4%ED%96%89-%EB%AC%B8%EB%A7%A5&quot; aria-label=&quot;실행 문맥 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;실행 문맥&lt;/h1&gt;
+&lt;h3 id=&quot;실행-문맥execution-context&quot;&gt;&lt;a href=&quot;#%EC%8B%A4%ED%96%89-%EB%AC%B8%EB%A7%A5execution-context&quot; aria-label=&quot;실행 문맥execution context permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;실행 문맥(Execution Context)?&lt;/h3&gt;
+&lt;p&gt;간단히 말하면, 실행 문맥은 자바스크립트가 동작하는 환경이다.자바스크립트 변수와 같은 요소들을 저장하는 박스라고 보면 된다. 그리고 이 박스, 즉 실행 문맥 안에서 코드가 읽혀지고 실행된다.&lt;/p&gt;
+&lt;p&gt;실행 문맥의 디폴트는 Global Execution Context(글로벌 실행 문맥)이다. 글로벌 실행 문맥에서는 함수 바깥에 있는 모든 코드가 실행된다. &lt;a href=&quot;https://yeonhapark.github.io/posts/javascript-scope/&quot;&gt;지난 스코프 포스팅 참조&lt;/a&gt; 글로벌 실행 문맥은 (브라우저에서 window인)글로벌 오브젝트를 생성한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;lastName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;lastName&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;다시 말해두자. &lt;b&gt;글로벌 실행 문맥은 글로벌 영역에 있는 코드, 함수, 변수만을 실행한다.&lt;/b&gt; 그렇다면 로컬 영역에 있는 코드, 즉 함수 내에 있는 코드는 어떡할까? 간단하다. 함수를 실행할 때마다 새로운 실행 컨텍스트가 그 위에 만들어진다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 642px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 69.93769470404985%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQT/2gAMAwEAAhADEAAAAXitrjzrJaHP/8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEQMS/9oACAEBAAEFAorvLfMeJtaFT//EABgRAQEAAwAAAAAAAAAAAAAAAAEAAhEx/9oACAEDAQE/AcEOym7/xAAXEQEAAwAAAAAAAAAAAAAAAAABAhAx/9oACAECAQE/AZI5X//EAB0QAAECBwAAAAAAAAAAAAAAAAABAxAhMUFCgZH/2gAIAQEABj8CFm4ZbhVelz//xAAbEAADAAIDAAAAAAAAAAAAAAAAARExQSFhkf/aAAgBAQABPyFZ34d2B2avIWFZ5RNJtvln/9oADAMBAAIAAwAAABC4/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8Q3YxJf//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxDEK//EABwQAQADAAIDAAAAAAAAAAAAAAEAETEhQVGRwf/aAAgBAQABPxBrXAp4e5wSi2HG9RCY3zzhCigI7Rl6fI5OL2J//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;execution context&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8c84a87fe798be5c20b5247efcc1f5a9/aa4ed/execution_context.jpg&quot;
+        srcset=&quot;/static/8c84a87fe798be5c20b5247efcc1f5a9/3bc27/execution_context.jpg 240w,
+/static/8c84a87fe798be5c20b5247efcc1f5a9/98431/execution_context.jpg 480w,
+/static/8c84a87fe798be5c20b5247efcc1f5a9/aa4ed/execution_context.jpg 642w&quot;
+        sizes=&quot;(max-width: 642px) 100vw, 642px&quot;
+      /&gt;
+  &lt;/span&gt; (출처: &lt;a href=&quot;https://medium.com/techracers/execution-context-basics-of-javascript-bb4ef8f1b845&quot;&gt;https://medium.com/techracers/execution-context-basics-of-javascript-bb4ef8f1b845&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;글로벌 실행 문맥 위에 새로운 함수가 호출될 때마다 그 함수에 대한 실행 문맥이 생성되고, 함수가 더이상 실행되지 않으면 해당 실행 문맥은 제거된다. &lt;/p&gt;
+&lt;h3 id=&quot;execution-context&quot;&gt;&lt;a href=&quot;#execution-context&quot; aria-label=&quot;execution context permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Execution Context?&lt;/h3&gt;
+&lt;p&gt;실행 컨텍스트가 어떻게 동작하는 지에 대한 답변은 두 가지 국면으로 나눠서 설명할 수 있다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Creation Phase(생성 국면) &lt;br/&gt;
+A) 변수 오브젝트의 생성 &lt;br/&gt;
+B) 스코프 체인의 형성 &lt;br/&gt;
+C) this 값의 정의&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Execution Phase(실행 국면)
+생성 국면에서 생성된 코드를 행 별로 실행&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이번 포스트에서는 A 변수 오브젝트의 생성에 대해서 우선 정리한다.&lt;/p&gt;
+&lt;p&gt;실행 문맥의 내부에서는 코드에서 사용되는 변수를 저장하고 관리한다. 이 때 실행 문맥 내부에서 변수 및 함수 선언을 저장하는 객체를 활성 객체(Activation Object) 또는 변수 객체(Variable Object)라고 부른다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;변수 객체(Variable Object) 생성될 떄 무슨 일이 일어날까
+아규먼트 오브젝트가 생성된다. 아규먼트 오브젝트는 함수에 전달되는 인수의 배열 집합이다.&lt;/p&gt;
+&lt;p&gt;그 다음에 일어나는 일을 설명하기 전에 자바스크립트에서 함수를 만드는 다른 방식인 함수 선언문(Function Declarations)과 함수 표현식(Function Expressions)에 대해 간단히 짚고 넘어가자.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 함수 선언문: 일반적인 함수 선언 형태&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;someFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// some logic&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;//함수를 호출할 때&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;someFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;//함수 표현식 : 변수값에 함수를 담아놓은 형태&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;hiFunc&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// some another logic&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;//호출할 때&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;hiFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;함수 선언문(function declarations)이 작성될 떄 코드가 스캔된다. 그리고 각각의 함수에 대해 변수 객체 안에서 프로퍼티가 생성된다. (즉, 모든 함수는 실행 문맥 안에 저장된다. 함수가 실행도 되기 전에 말이다.) 이 프로퍼티는 함수를 가리킨다. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;변수 선언문(variable declarations)이 작성될 때 코드가 스캔된다. 변수 객체 내에 프로퍼티가 생성되며 그 값은 undefined로 규정된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이 두 가지 경우를 &lt;strong&gt;hoisting&lt;/strong&gt;이라고 부른다. 즉, 함수/변수가 선언될 때 코드가 스캔되고 변수 객체 내에 프로퍼티가 생성된다. 그러나 함수와 변수의 호이스팅에는 차이가 존재한다. &lt;b&gt; 함수의 경우, 실행 국면이 채 시작되기 전에 이미 정의된 상태이다. 하지만 변수는 undefined된 상태이며, 실행 국면에 들어가면 그 때 정의될 것이다. &lt;/b&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;hoisting&quot;&gt;&lt;a href=&quot;#hoisting&quot; aria-label=&quot;hoisting permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HOISTING&lt;/h1&gt;
+&lt;p&gt;Hoisting, 한국말로는 ‘끌어올리기’ 라는 뜻 즘으로 해석 할 수 있다. 함수 선언과 함께 코드가 스캔되기 때문에 함수나 변수가 밑에 위치하여도 코드 상 위에 위치해있는 호출구문에서 호출이 가능하다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// HOISTING&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;calcAge&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1999&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;calcAge&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2019&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; year&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 함수의 선언과 함께 변수 객체에 저장됨&lt;/span&gt;
+
+
+&lt;span class=&quot;token function&quot;&gt;retirement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1990&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 에러&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// Not a function declaration, but function expression&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 호이스팅은 함수 선언에만 유효하다. &lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;retirement&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;65&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2019&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; year&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;calcAge는 호이스팅이 되었지만, retirement는 호이스팅이 되지 않았다. 호이스팅은 함수 선언문에만 유효하기 때문이다.
+retirement는 anonymous function을 retirement라는 변수에 담아 실행한 함수이다. 이 경우는 함수 선언문(Function Declarations)이 아닌 함수 표현식(Function Expressions)에 해당한다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 변수 HOISTING&lt;/span&gt;
+
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;age&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// undefined&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// HOISTING은 되지만 값은 undefined이다. &lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; age &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;23&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;변수를 선언하므로 호이스팅이 되지만, 값은 undefined이므로 undefined가 출력된다.    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL - 자바스크립트 스코프(Scope) ]]></title><description><![CDATA[스코프란 자바스크립트 런타임 내의 코드에 있는 변수나 함수 혹은 객체에 대한 접근성을 일컫는다.]]></description><link>https://yeonhapark.github.io//posts/javascript-scope/</link><guid isPermaLink="false">https://yeonhapark.github.io//posts/javascript-scope/</guid><pubDate>Thu, 18 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;scope스코프&quot;&gt;&lt;a href=&quot;#scope%EC%8A%A4%EC%BD%94%ED%94%84&quot; aria-label=&quot;scope스코프 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Scope(스코프)&lt;/h1&gt;
 &lt;p&gt;스코프란 자바스크립트 런타임 내의 코드에 있는 변수나 함수 혹은 객체에 대한 접근성을 일컫는다. 즉, 스코프(범위) 영역 내에서의 변수나 다른 리소스들만 가시성을 보장받는다.&lt;/p&gt;
 &lt;p&gt;왜 모든 코드에 접근성을 부여하지 않고 제한을 거는 걸까? 회사에 컴퓨터 관리자가 여러 명이 있고 그들에게 모든 엑세스를 부여했다고 가정하자. 어느날 치명적인 바이러스가 회사 서버에 침투하여 모든 시스템이 망가졌다. 이 상황에서 어떤 관리자의 실수로 보안망이 뚫렸는지 감지할 수 있을까? 당신이 회사의 책임자라면 최소한의 권한을 부여하고 꼭 필요한 책임자에게만 더 높은 권한을 부여하는 방식이 필요하다는 사실을 깨달을 것이다. 이는 The Principle of Least Access(최소한의 권한) 라는 원칙이라 불린다. 이 원칙은 프로그래밍 언어에도 역시 적용 가능하다.&lt;/p&gt;
 &lt;p&gt;프로그래밍을 하면서 성능 개선을 위해, 버그 트래킹과 버그 최소화를 위해 스코프를 지정하는 것이 필요할 뿐만 아니라 스코프 활용을 통해 변수명 중복에 대한 위험도 피할 수 있다.&lt;/p&gt;
