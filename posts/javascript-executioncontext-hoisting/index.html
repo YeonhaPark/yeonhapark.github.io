@@ -87,16 +87,16 @@ B) 스코프 체인의 형성 <br/>
 C) this 값의 정의</p>
 </li>
 <li>
-<p>Execution Phase(실행 국면)
-생성 국면에서 생성된 코드를 행 별로 실행</p>
+<p>Execution Phase(실행 국면) <br/>
+생성 국면에서 생성된 코드를 행 별로 실행한다</p>
 </li>
 </ul>
 <p>이번 포스트에서는 A 변수 오브젝트의 생성에 대해서 우선 정리한다.</p>
 <p>실행 문맥의 내부에서는 코드에서 사용되는 변수를 저장하고 관리한다. 이 때 실행 문맥 내부에서 변수 및 함수 선언을 저장하는 객체를 활성 객체(Activation Object) 또는 변수 객체(Variable Object)라고 부른다.</p>
 <ul>
 <li>
-<p>변수 객체(Variable Object) 생성될 떄 무슨 일이 일어날까
-아규먼트 오브젝트가 생성된다. 아규먼트 오브젝트는 함수에 전달되는 인수의 배열 집합이다.</p>
+<p>변수 객체(Variable Object) 생성될 떄 무슨 일이 일어날까?</p>
+<p>아규먼트 오브젝트가 생성된다. 아규먼트 오브젝트는 함수에 전달되는 인수의 배열 집합이다.</p>
 <p>그 다음에 일어나는 일을 설명하기 전에 자바스크립트에서 함수를 만드는 다른 방식인 함수 선언문(Function Declarations)과 함수 표현식(Function Expressions)에 대해 간단히 짚고 넘어가자.</p>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// 함수 선언문: 일반적인 함수 선언 형태</span>
 <span class="token keyword">function</span> <span class="token function">someFunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
