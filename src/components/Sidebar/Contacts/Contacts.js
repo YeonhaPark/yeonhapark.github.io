@@ -6,16 +6,14 @@ import styles from './Contacts.module.scss';
 
 type Props = {
   contacts: {
-    [string]: string,
-  },
+    [string]: string
+  }
 };
 
-const Contacts = ({ contacts }: Props) => {
-  console.log(contacts,'dsdf')
-  return (
+const Contacts = ({ contacts }: Props) => (
   <div className={styles['contacts']}>
     <ul className={styles['contacts__list']}>
-      {Object.keys(contacts).map((name) => (
+      {Object.keys(contacts).map(name => (
         <li className={styles['contacts__list-item']} key={name}>
           <a
             className={styles['contacts__list-item-link']}
@@ -29,7 +27,6 @@ const Contacts = ({ contacts }: Props) => {
       ))}
     </ul>
   </div>
-  )
-};
+);
 
 export default Contacts;
