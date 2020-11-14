@@ -11,12 +11,12 @@ module.exports = {
   menu: [
     {
       label: 'Articles',
-      path: '/'
+      path: '/',
     },
     {
       label: 'About me',
-      path: '/pages/about'
-    }
+      path: '/pages/about',
+    },
   ],
   author: {
     name: 'Park Yeonha',
@@ -26,9 +26,9 @@ module.exports = {
       email: 'yonaprisca@gmail.com',
       telegram: '#',
       twitter: '#',
-      github: 'https://github.com/YeonhaPark',
+      github: '/YeonhaPark',
       rss: '#',
-      vkontakte: '#'
-    }
-  }
+      vkontakte: '#',
+    },
+  },
 };
