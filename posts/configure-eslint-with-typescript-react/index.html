@@ -70,13 +70,12 @@
 <p><code class="language-text">@typescript-eslint/parser</code> : TypeScript 코드를 linting할 수 있도록 한다.</p>
 <p><code class="language-text">@typescript-eslint/eslint-plugin</code> : TypeScript를 위한 ESLint 룰을 포함하는 플러그인이다.</p>
 <p>그 다음 프로젝트 루트 디렉토리에 <code class="language-text">.eslintrc.js</code> 파일을 생성한다.</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">yarn</span> <span class="token function">add</span> eslint-plugin-react eslint-plugin-react-hooks eslint-config-airbnb eslint-config-airbnb-typescript
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">yarn</span> <span class="token function">add</span> eslint-plugin-react eslint-config-airbnb eslint-config-airbnb-typescript
 eslint-plugin-jsx-a11y eslint-plugin-import prettier eslint-config-prettier eslint-plugin-prettier -D</code></pre></div>
 <ul>
 <li>타입스크립트를 리액트와 함께 사용한다면 <a href="https://github.com/yannickcr/eslint-plugin-react"><code class="language-text">eslint-plugin-react</code></a> dev dependency를 설치해주어야 한다.</li>
-<li>나는 Hooks를 사용하기 때문에 <code class="language-text">eslint-plugin-react-hooks</code> 패키지도 설치해주었다.</li>
 <li><a href="https://www.npmjs.com/package/eslint-config-airbnb"><code class="language-text">eslint-config-airbnb</code></a> :airbnb 의 리액트 관련 규칙을 적용하기 위한 플러그인이다.</li>
-<li><a href="https://github.com/iamturns/eslint-config-airbnb-typescript"><code class="language-text">eslint-config-airbnb-typescript</code></a> : airbnb의 타입스크립트 관련 규칙을 적용하기 위한 플러그인이다.</li>
+<li><a href="https://github.com/iamturns/eslint-config-airbnb-typescript"><code class="language-text">eslint-config-airbnb-typescript</code></a> :위의 플러그인의 적용 범위를 타입스크립트까지 확대하기 위한 플러그인으로, 별도의 규칙을 갖고 있진 않다.</li>
 <li><code class="language-text">eslint-plugin-jsx-a11y</code> : eslint-config-airbnb와 함께 설치해주어야 하는 플러그인이다(<code class="language-text">eslint-plugin-import</code>, <code class="language-text">eslint-plugin-react</code> 도 마찬가지)</li>
 <li><code class="language-text">prettier</code> : prettier를 적용하기 위한 코어 라이브러리</li>
 <li><code class="language-text">eslint-plugin-prettier</code> : ESLint 룰로 프리티어를 실행한다.</li>
@@ -94,62 +93,61 @@ eslint-plugin-jsx-a11y eslint-plugin-import prettier eslint-config-prettier esli
 <span class="token punctuation">}</span></code></pre></div>
 <div class="gatsby-highlight" data-language="jsx"><pre class="language-jsx"><code class="language-jsx">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token keyword">extends</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-    <span class="token string">'airbnb'</span><span class="token punctuation">,</span>
-    <span class="token string">'airbnb-typescript'</span><span class="token punctuation">,</span>
-    <span class="token string">'airbnb/hooks'</span><span class="token punctuation">,</span>
-    <span class="token string">'prettier'</span><span class="token punctuation">,</span>
-    <span class="token string">'prettier/react'</span><span class="token punctuation">,</span>
-    <span class="token string">'plugin:react/recommended'</span><span class="token punctuation">,</span> <span class="token comment">// eslint-plugin-react에서 추천하는 리액트 린팅 설정</span>
-    <span class="token string">'plugin:@typescript-eslint/recommended'</span><span class="token punctuation">,</span> <span class="token comment">// @typescript-eslint/recommended의 추천 룰 사용</span>
-    <span class="token string">'prettier/@typescript-eslint'</span><span class="token punctuation">,</span>
-    <span class="token string">'plugin:prettier/recommended'</span><span class="token punctuation">,</span>
+    <span class="token string">"airbnb"</span><span class="token punctuation">,</span>
+    <span class="token string">"airbnb-typescript"</span><span class="token punctuation">,</span>
+    <span class="token string">"prettier"</span><span class="token punctuation">,</span>
+    <span class="token string">"prettier/react"</span><span class="token punctuation">,</span>
+    <span class="token string">"plugin:react/recommended"</span><span class="token punctuation">,</span> <span class="token comment">// eslint-plugin-react에서 추천하는 리액트 린팅 설정</span>
+    <span class="token string">"plugin:@typescript-eslint/recommended"</span><span class="token punctuation">,</span> <span class="token comment">// @typescript-eslint/recommended의 추천 룰 사용</span>
+    <span class="token string">"prettier/@typescript-eslint"</span><span class="token punctuation">,</span>
+    <span class="token string">"plugin:prettier/recommended"</span><span class="token punctuation">,</span>
   <span class="token punctuation">]</span><span class="token punctuation">,</span>
-  plugins<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'prettier'</span><span class="token punctuation">,</span> <span class="token string">'react'</span><span class="token punctuation">,</span> <span class="token string">'@typescript-eslint'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token comment">// 해당 플러그인을 사용할것이라고 등록</span>
+  plugins<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"prettier"</span><span class="token punctuation">,</span> <span class="token string">"react"</span><span class="token punctuation">,</span> <span class="token string">"@typescript-eslint"</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token comment">// 해당 플러그인을 사용할것이라고 등록</span>
   env<span class="token operator">:</span> <span class="token punctuation">{</span>
     <span class="token comment">// 프로젝트 사용 환경</span>
     browser<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
     es6<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
     jest<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  parser<span class="token operator">:</span> <span class="token string">'@typescript-eslint/parser'</span><span class="token punctuation">,</span> <span class="token comment">// eslint가 TypeScript를 린팅할 수 있도록 parser 지정</span>
+  parser<span class="token operator">:</span> <span class="token string">"@typescript-eslint/parser"</span><span class="token punctuation">,</span> <span class="token comment">// eslint가 TypeScript를 린팅할 수 있도록 parser 지정</span>
   parserOptions<span class="token operator">:</span> <span class="token punctuation">{</span>
     ecmaFeatures<span class="token operator">:</span> <span class="token punctuation">{</span>
       jsx<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// jsx 활성화</span>
     <span class="token punctuation">}</span><span class="token punctuation">,</span>
     ecmaVersion<span class="token operator">:</span> <span class="token number">2021</span><span class="token punctuation">,</span> <span class="token comment">// ECMAScript syntax 버젼</span>
-    sourceType<span class="token operator">:</span> <span class="token string">'module'</span><span class="token punctuation">,</span> <span class="token comment">// import 사용</span>
-    project<span class="token operator">:</span> <span class="token string">'./tsconfig.json'</span><span class="token punctuation">,</span>
+    sourceType<span class="token operator">:</span> <span class="token string">"module"</span><span class="token punctuation">,</span> <span class="token comment">// import 사용</span>
+    project<span class="token operator">:</span> <span class="token string">"./tsconfig.json"</span><span class="token punctuation">,</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
   rules<span class="token operator">:</span> <span class="token punctuation">{</span>
-    <span class="token string">'no-underscore-dangle'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span> <span class="token comment">// _언더스코어 식별자 사용 관련 룰 비활성화</span>
-    <span class="token string">'no-alert'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span> <span class="token comment">// alert 자주 사용하므로 비활성화</span>
-    <span class="token string">'react-hooks/exhaustive-deps'</span><span class="token operator">:</span> <span class="token string">'warn'</span><span class="token punctuation">,</span> <span class="token comment">// dependency 관련 에러는 경고(노란줄)로 바꿈</span>
-    <span class="token string">'react/jsx-filename-extension'</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">"no-underscore-dangle"</span><span class="token operator">:</span> <span class="token string">"off"</span><span class="token punctuation">,</span> <span class="token comment">// _언더스코어 식별자 사용 관련 룰 비활성화</span>
+    <span class="token string">"no-alert"</span><span class="token operator">:</span> <span class="token string">"off"</span><span class="token punctuation">,</span> <span class="token comment">// alert 자주 사용하므로 비활성화</span>
+    <span class="token string">"react-hooks/exhaustive-deps"</span><span class="token operator">:</span> <span class="token string">"warn"</span><span class="token punctuation">,</span> <span class="token comment">// dependency 관련 에러는 경고(노란줄)로 바꿈</span>
+    <span class="token string">"react/jsx-filename-extension"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
       <span class="token number">1</span><span class="token punctuation">,</span>
-      <span class="token punctuation">{</span> extensions<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'.js'</span><span class="token punctuation">,</span> <span class="token string">'.jsx'</span><span class="token punctuation">,</span> <span class="token string">'.ts'</span><span class="token punctuation">,</span> <span class="token string">'.tsx'</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> extensions<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">".js"</span><span class="token punctuation">,</span> <span class="token string">".jsx"</span><span class="token punctuation">,</span> <span class="token string">".ts"</span><span class="token punctuation">,</span> <span class="token string">".tsx"</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
     <span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token comment">// js도 확장자 가능하게끔 설정</span>
-    <span class="token string">'@typescript-eslint/naming-convention'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span> <span class="token comment">// snake_case, camelCase 혼용해서 사용중이므로 비활성화</span>
-    <span class="token string">'prettier/prettier'</span><span class="token operator">:</span> <span class="token string">'error'</span><span class="token punctuation">,</span> <span class="token comment">// eslint-plugin-prettier의 룰을 활성화</span>
-    <span class="token string">'arrow-body-style'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span> <span class="token comment">// eslint-plugin-prettier와 충돌하는 ESLint 코어 룰을 비활성화</span>
-    <span class="token string">'prefer-arrow-callback'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span> <span class="token comment">// eslint-plugin-prettier와 충돌하는 ESLint 코어 룰을 비활성화</span>
-    <span class="token string">'import/no-unresolved'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span> <span class="token comment">// src 폴더 밑에 있는 이미지 file을 임포트하는 과정에서 에러로 표기되는 이슈 방지</span>
-    <span class="token string">'jsx-a11y/anchor-is-valid'</span><span class="token operator">:</span> <span class="token string">'warn'</span><span class="token punctuation">,</span> <span class="token comment">// a tag에 href 사용하도록 경고하는 룰</span>
-    <span class="token string">'jsx-a11y/click-events-have-key-events'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span> <span class="token comment">// 마우스가 아닌 키보드로 컴퓨터를 이용하는 사람들을 위한 접근성 옵션 꺼둠. 추후 적용하고자 하면 제거할 것</span>
-    <span class="token string">'jsx-a11y/no-static-element-interactions'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span> <span class="token comment">// semantic 의미를 갖고 있지 않은 태그 사용을 지양하도록 하는 옵션 꺼둠</span>
-    <span class="token string">'react/jsx-props-no-spreading'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span> <span class="token comment">// jsx에 넘겨주는 props 에 spread 연산자를 사용할 수 있게끔 셋팅</span>
-    <span class="token string">'react/no-children-prop'</span><span class="token operator">:</span> <span class="token string">'off'</span><span class="token punctuation">,</span> <span class="token comment">// children 으로 Prop 넘겨줄 수 있도록 설정</span>
+    <span class="token string">"@typescript-eslint/naming-convention"</span><span class="token operator">:</span> <span class="token string">"off"</span><span class="token punctuation">,</span> <span class="token comment">// snake_case, camelCase 혼용해서 사용중이므로 비활성화</span>
+    <span class="token string">"prettier/prettier"</span><span class="token operator">:</span> <span class="token string">"error"</span><span class="token punctuation">,</span> <span class="token comment">// eslint-plugin-prettier의 룰을 활성화</span>
+    <span class="token string">"arrow-body-style"</span><span class="token operator">:</span> <span class="token string">"off"</span><span class="token punctuation">,</span> <span class="token comment">// eslint-plugin-prettier와 충돌하는 ESLint 코어 룰을 비활성화</span>
+    <span class="token string">"prefer-arrow-callback"</span><span class="token operator">:</span> <span class="token string">"off"</span><span class="token punctuation">,</span> <span class="token comment">// eslint-plugin-prettier와 충돌하는 ESLint 코어 룰을 비활성화</span>
+    <span class="token string">"import/no-unresolved"</span><span class="token operator">:</span> <span class="token string">"off"</span><span class="token punctuation">,</span> <span class="token comment">// src 폴더 밑에 있는 이미지 file을 임포트하는 과정에서 에러로 표기되는 이슈 방지</span>
+    <span class="token string">"jsx-a11y/anchor-is-valid"</span><span class="token operator">:</span> <span class="token string">"warn"</span><span class="token punctuation">,</span> <span class="token comment">// a tag에 href 사용하도록 경고하는 룰</span>
+    <span class="token string">"jsx-a11y/click-events-have-key-events"</span><span class="token operator">:</span> <span class="token string">"off"</span><span class="token punctuation">,</span> <span class="token comment">// 마우스가 아닌 키보드로 컴퓨터를 이용하는 사람들을 위한 접근성 옵션 꺼둠. 추후 적용하고자 하면 제거할 것</span>
+    <span class="token string">"jsx-a11y/no-static-element-interactions"</span><span class="token operator">:</span> <span class="token string">"off"</span><span class="token punctuation">,</span> <span class="token comment">// semantic 의미를 갖고 있지 않은 태그 사용을 지양하도록 하는 옵션 꺼둠</span>
+    <span class="token string">"react/jsx-props-no-spreading"</span><span class="token operator">:</span> <span class="token string">"off"</span><span class="token punctuation">,</span> <span class="token comment">// jsx에 넘겨주는 props 에 spread 연산자를 사용할 수 있게끔 셋팅</span>
+    <span class="token string">"react/no-children-prop"</span><span class="token operator">:</span> <span class="token string">"off"</span><span class="token punctuation">,</span> <span class="token comment">// children 으로 Prop 넘겨줄 수 있도록 설정</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
 <h3 id="globals" style="position:relative;"><a href="#globals" aria-label="globals permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Globals</h3>
 <p>ESLint는 기본적으로 전역 변수의 사용을 금지한다. Globals 항목에서 사용자가 허용할 전역 변수를 설정할 수 있다.</p>
 <h3 id="extends" style="position:relative;"><a href="#extends" aria-label="extends permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Extends</h3>
 <ul>
-<li><code class="language-text">airbnb</code> , <code class="language-text">airbnb/hooks</code> , <code class="language-text">airbnb-typescript</code>: 에어비엔비 플러그인을 적용하기 위한 설정</li>
+<li><code class="language-text">airbnb</code> , <code class="language-text">airbnb-typescript</code>: 에어비엔비 플러그인을 적용하기 위한 설정</li>
 <li><code class="language-text">prettier</code> : eslint-config-prettier의 메인 설정을 활성화하며, prettier와 충돌하는 ESLint 코어 룰을 비활성화한다.</li>
 <li><code class="language-text">prettier/react</code>: plugin을 요구하는 config를 설치하게 되면 적용을 위해 <code class="language-text">prettier/해당플러그인</code> 을 적용해주어야한다. eslint-config-airbnb는 eslint-plugin-react를 peer-dependency로 가지므로 이 설정을 추가한다.</li>
 <li><code class="language-text">plugin:prettier/recommended</code> :eslint-config-prettier, eslint-plugin-prettier 설정을 적용하기 위한 셋팅. 반드시 마지막 익스텐션 순서로 넣어주어야 한다.</li>
 <li><code class="language-text">plugin:@typescript-eslint/recommended</code> : @typescript-eslint/recommended의 추천 룰 사용</li>
-<li><code class="language-text">prettier/@typescript-eslint</code> : prettier와 typescript-eslint를 함께 쓰기 위한 설정이다. (<a href="https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md#usage-with-prettier">참고</a>)</li>
+<li><code class="language-text">prettier/@typescript-eslint</code> : prettier와 typescript-eslint를 함께 쓰기 위한 설정이다. 프리티어가 적용하는 포맷팅에 대해 ESLint가 추가로 포맷팅 관련 작업을 하지 않도록 한다. (<a href="https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md#usage-with-prettier">참고</a>)</li>
 </ul>
 <h3 id="plugins" style="position:relative;"><a href="#plugins" aria-label="plugins permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>plugins</h3>
 <ul>
@@ -169,6 +167,13 @@ eslint-plugin-jsx-a11y eslint-plugin-import prettier eslint-config-prettier esli
 <li><code class="language-text">import/no-unresolved</code> : eslint는 webpack에 대한 지식이 없어서 src 폴더 밑에 있는 이미지 file을 임포트하는 과정에서 에러로 표기되는 문제가 있었다. 린터는 단순히 현재 폴더 구조를 파악하고 타겟 파일을 찾지 못하면 경고로 표기하기 때문이다. 해당 옵션은 off 처리하였다.</li>
 </ul>
 <p>기타 룰은 각자 프로젝트를 진행하면서 원하는 룰에 맞춰서 취향껏 가감하면 되겠다.</p>
+<h3 id="적용된-eslint-rule-리스트-확인하기" style="position:relative;"><a href="#%EC%A0%81%EC%9A%A9%EB%90%9C-eslint-rule-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0" aria-label="적용된 eslint rule 리스트 확인하기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>적용된 ESLint Rule 리스트 확인하기</h3>
+<ul>
+<li><code class="language-text">plugin:react/recommended</code>: <a href="https://eslint.org/docs/rules/">https://eslint.org/docs/rules/</a></li>
+<li><code class="language-text">@typescript-eslint/eslint-plugin</code> : <a href="https://www.npmjs.com/package/@typescript-eslint/eslint-plugin">https://www.npmjs.com/package/@typescript-eslint/eslint-plugin</a> / <a href="https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin/docs/rules">https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin/docs/rules</a></li>
+<li><code class="language-text">airbnb/hooks</code>: 찾아보니 airbnb/hooks는 리액트에서 제공하는 rooks-of-hooks를 그대로 적용하고 있었다. (<a href="https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react-hooks.js">https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react-hooks.js</a>) 이는 CRA에 default로 적용되어 있으므로 생략 가능하다.</li>
+<li><code class="language-text">eslint-config-airbnb</code> : <a href="https://github.com/airbnb/javascript/tree/master/react">https://github.com/airbnb/javascript/tree/master/react</a></li>
+</ul>
 <p>참고 블로그</p>
 <p><a href="https://velog.io/@kyusung/eslint-config-2">https://velog.io/@kyusung/eslint-config-2</a></p>
 <p><a href="https://medium.com/@brygrill/create-react-app-with-typescript-eslint-prettier-and-github-actions-f3ce6a571c97">https://medium.com/@brygrill/create-react-app-with-typescript-eslint-prettier-and-github-actions-f3ce6a571c97</a></p>
