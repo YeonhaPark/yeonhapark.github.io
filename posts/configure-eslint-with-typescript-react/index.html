@@ -81,17 +81,8 @@ eslint-plugin-jsx-a11y eslint-plugin-import prettier eslint-config-prettier esli
 <li><code class="language-text">eslint-plugin-prettier</code> : ESLint 룰로 프리티어를 실행한다.</li>
 <li><a href="https://github.com/prettier/eslint-config-prettier"><code class="language-text">eslint-config-prettier</code></a>: prettier와 중복, 충돌되는 ESLint 룰을 비활성화한다. ESLint에도 포맷팅을 하는 기능이 있는데 이것이 prettier와 충돌하여 에러를 발생시킬 수 있으므로 해당 패키지를 통해 이런 오류를 사전에 방지하는 것이다.</li>
 </ul>
-<p>prettier 를 실행하기 위해서는 루트 디렉토리에 .prettierrc 파일을 생성해주어야 한다.</p>
-<div class="gatsby-highlight" data-language="jsx"><pre class="language-jsx"><code class="language-jsx"><span class="token comment">// .prettierrc</span>
-<span class="token punctuation">{</span>
-	<span class="token string">"singleQuote"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-	<span class="token string">"semi"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-	<span class="token string">"useTabs"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
-	<span class="token string">"tabWidth"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
-	<span class="token string">"trailingComma"</span><span class="token operator">:</span> <span class="token string">"all"</span><span class="token punctuation">,</span>
-	<span class="token string">"printWidth"</span><span class="token operator">:</span> <span class="token number">80</span>
-<span class="token punctuation">}</span></code></pre></div>
-<div class="gatsby-highlight" data-language="jsx"><pre class="language-jsx"><code class="language-jsx">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+<div class="gatsby-highlight" data-language="jsx"><pre class="language-jsx"><code class="language-jsx"><span class="token comment">//.eslintrc.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token keyword">extends</span><span class="token operator">:</span> <span class="token punctuation">[</span>
     <span class="token string">"airbnb"</span><span class="token punctuation">,</span>
     <span class="token string">"airbnb-typescript"</span><span class="token punctuation">,</span>
@@ -138,8 +129,7 @@ eslint-plugin-jsx-a11y eslint-plugin-import prettier eslint-config-prettier esli
     <span class="token string">"react/no-children-prop"</span><span class="token operator">:</span> <span class="token string">"off"</span><span class="token punctuation">,</span> <span class="token comment">// children 으로 Prop 넘겨줄 수 있도록 설정</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
-<h3 id="globals" style="position:relative;"><a href="#globals" aria-label="globals permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Globals</h3>
-<p>ESLint는 기본적으로 전역 변수의 사용을 금지한다. Globals 항목에서 사용자가 허용할 전역 변수를 설정할 수 있다.</p>
+<p>eslint 설정이 어떻게 된 것인지 설명해보겠다. </p>
 <h3 id="extends" style="position:relative;"><a href="#extends" aria-label="extends permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Extends</h3>
 <ul>
 <li><code class="language-text">airbnb</code> , <code class="language-text">airbnb-typescript</code>: 에어비엔비 플러그인을 적용하기 위한 설정</li>
@@ -157,6 +147,7 @@ eslint-plugin-jsx-a11y eslint-plugin-import prettier eslint-config-prettier esli
 <h3 id="parseroptions" style="position:relative;"><a href="#parseroptions" aria-label="parseroptions permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ParserOptions</h3>
 <p><a href="https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser#parseroptionsproject"><code class="language-text">parserOptions.project</code></a>: eslint-config-airbnb-typescript 를 설치했다면 타입 규칙들이 작용하기 위해 해당 패키지에서 설정하도록 요구하는 항목이다. 해당 옵션을 설정하게되면 프로젝트의 <code class="language-text">tsconfig.json</code> 으로 가는 path를 제공할 수 있다. (해당 옵션의 디폴트 값은 <code class="language-text">undefined</code> 다.)</p>
 <h3 id="rules" style="position:relative;"><a href="#rules" aria-label="rules permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>rules</h3>
+<p>위 예에서 설정한 rule은 개인적으로 프로젝트의 편의에 맞게 내가 설정한 것이며, 꼭 위의 예를 따르지 않고 개발자가 사용하고자 하는 방식대로 옵션을 설정해주면 된다. </p>
 <ul>
 <li><code class="language-text">no-underscore-dangle</code> : 식별자 앞에 _ 언더스코어를 쓰는 경우가 많아서 해당 룰을 비활성화하였다.</li>
 <li><code class="language-text">no-alert</code> : 우리 앱에서는 alert를 자주 사용하기 때문에 해당 룰을 비활성화 해주었다.</li>
@@ -174,6 +165,16 @@ eslint-plugin-jsx-a11y eslint-plugin-import prettier eslint-config-prettier esli
 <li><code class="language-text">airbnb/hooks</code>: 찾아보니 airbnb/hooks는 리액트에서 제공하는 rooks-of-hooks를 그대로 적용하고 있었다. (<a href="https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react-hooks.js">https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react-hooks.js</a>) 이는 CRA에 default로 적용되어 있으므로 생략 가능하다.</li>
 <li><code class="language-text">eslint-config-airbnb</code> : <a href="https://github.com/airbnb/javascript/tree/master/react">https://github.com/airbnb/javascript/tree/master/react</a></li>
 </ul>
+<p>끝으로 prettier 를 실행하기 위해서는 루트 디렉토리에 .prettierrc 파일을 생성해주어야 한다.</p>
+<div class="gatsby-highlight" data-language="jsx"><pre class="language-jsx"><code class="language-jsx"><span class="token comment">// .prettierrc</span>
+<span class="token punctuation">{</span>
+	<span class="token string">"singleQuote"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+	<span class="token string">"semi"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+	<span class="token string">"useTabs"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+	<span class="token string">"tabWidth"</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+	<span class="token string">"trailingComma"</span><span class="token operator">:</span> <span class="token string">"all"</span><span class="token punctuation">,</span>
+	<span class="token string">"printWidth"</span><span class="token operator">:</span> <span class="token number">80</span>
+<span class="token punctuation">}</span></code></pre></div>
 <p>참고 블로그</p>
 <p><a href="https://velog.io/@kyusung/eslint-config-2">https://velog.io/@kyusung/eslint-config-2</a></p>
 <p><a href="https://medium.com/@brygrill/create-react-app-with-typescript-eslint-prettier-and-github-actions-f3ce6a571c97">https://medium.com/@brygrill/create-react-app-with-typescript-eslint-prettier-and-github-actions-f3ce6a571c97</a></p>
