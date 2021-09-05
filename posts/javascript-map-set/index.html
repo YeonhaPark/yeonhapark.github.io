@@ -151,8 +151,8 @@ furnitureSet<span class="token punctuation">.</span><span class="token function"
 <p><code class="language-text">set.keys()</code> – returns an iterable object for values.</p>
 <p><code class="language-text">set.values()</code> – same as set.keys(), for compatibility with Map</p>
 <p><code class="language-text">set.entries()</code> – returns an iterable object for entries [value, value], exists for compatibility with Map.</p>
-<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"></code></pre></div>
 <h2 id="arrayfrom" style="position:relative;"><a href="#arrayfrom" aria-label="arrayfrom permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Array.from</h2>
+<p>Also I’ll mention <code class="language-text">Array.from</code> method which can be used very often with Map and Set structure.</p>
 <p><b>It can be used when using Set, to convert array-like object to an array.</b></p>
 <p>The Array.from() static method creates a new, shallow-copied Array instance from an array-like or iterable object.</p>
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Array<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span><span class="token string">'foo'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -169,9 +169,7 @@ Map function to call on every element of the array.</li>
 <li><code class="language-text">thisArg (Optional)</code>
 Value to use as this when executing mapFn</li>
 </ol>
-<p>Return value
-A new Array instance.</p>
-<p><i>References</i></p>
+<p><b><i>References</i></b></p>
 <ul>
 <li><a href="https://javascript.info/map-set">https://javascript.info/map-set</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from</a></li>
