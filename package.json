@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-glass",
+  "name": "yonas-dev-log",
   "private": true,
   "description": "A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.",
   "version": "1.0.0",
-  "author": "Yinka Adedire <yinkakun@gmail.com>",
+  "author": "Park Yeonha",
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^3.0.1",

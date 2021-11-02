@@ -1,8 +1,8 @@
 ---
 template: 'index-template'
-title: 'Gatsby Starter Glass'
+title: 'Yonas Dev Log'
 ---
 
-#Hello World
+#Yonas Dev Log
 
-A minimal & beautiful gatsby personal blog starter with nice glassmorphism UI.
+Dev Journal & Frontend Study Log

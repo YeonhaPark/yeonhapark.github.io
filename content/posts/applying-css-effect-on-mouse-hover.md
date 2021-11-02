@@ -1,0 +1,70 @@
+---
+title:  CSS3 - 마우스 hover에 따라 그래픽적인 효과 줘보기
+date:   2019-06-19 
+tags: [css, html]
+description: CSS Transition 속성을 활용하여 마우스 hover에 따라 달라지는 효과 적용
+---
+
+### CSS3 transition 속성을 활용하여 hover동작에 따라 시각적으로 달라지는 스타일링 효과를 적용해보자
+
+#### 소스코드 및 결과
+<div align="center">
+<iframe width="100%" height="300" src="//jsfiddle.net/yeonhapark/s3b7hfL2/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe></div>
+
+내가 원하는 화면은 글씨와 그 글씨에 마우스를 올렸을 때 노란색 굵은 줄이 점진적으로 증가했다가, 마우스를 글씨 바깥으로 옮기면 노란색 줄이 다시 점진적으로 줄어드는 모양새다. 
+
+어떻게 구현할 수 있을까?
+
+먼저, 글씨를 둘러싸는 태그 외에 노란 줄이 되어줄 div 태그가 필요할 것 같다. 
+
+그럼 일차적으로 다음과 같은 코드를 생각해 볼 수 있다.
+
+```html
+<div class="outer">
+  Work
+  <div class="inside"></div>
+</div>
+```
+
+자식 div = 노란줄
+부모 div = 글씨
+
+css 파트 중에 중요한 부분만 뜯어서 풀이하였다. 
+
+```css
+.outer {
+  position: relative;
+  display: inline-block;
+  //default인 block속성은 전체 라인을 차지한다. 글씨 너비까지만 자식 div 속성의 css값을 적용할 것이므로 inline-block으로 속성을 바꾼다. 
+}
+
+.inside {
+  background-color: yellow;
+  position: absolute;
+  height: 50%; //부모 div 높이의 50%만큼 적용하겠단 소리
+  width: 0%; //hover 동작이 일어나기 전까지는 언더라인이 보여서는 안된다.
+}
+
+//hover 이벤트가 발생하는 부분 처리
+
+.outer:hover .inside {
+  width: 100%; //부모 div 너비만큼
+  z-index: -1; //자식 div가 부모 div위에 위치하는 것을 막기 위함
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -ms-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  transition: width 0.3s; //0.3초의 속도로 width속성만 변화시키겠다는 뜻
+}
+
+
+```
+
+사용자가 실제로 hover하는 곳은 .inside클래스가 있는 태그가 아니라 .outer 클래스가 있는 부모 태그이다. (자식 div태그는 아무런 내용물이 없다) 따라서 부모 태그에 호버 이벤트가 있을 때, inside 클래스에 위와 같은 속성을 적용하겠다는 것이다. 
+
+노란 언더라인이 너무 밑으로 내려간 부분은 margin-top에 마이너스 값을 줌으로 해결하였다. 
+
+css transition 속성에 대한 좋은 설명을 아래 첨부하였다. css에 대한 개념을 잡을 때 아주 유용한 사이트이다. 
+
+https://css-tricks.com/almanac/properties/t/transition/
+

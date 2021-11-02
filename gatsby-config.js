@@ -1,27 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Glass`,
+    title: `Yonas Dev Log`,
     author: {
-      name: `Yinka Adedire`,
-      summary: `Self-taught front-end web dev. JAMStack.`,
+      name: `Park Yeonha`,
+      summary: `Communicative & Enthusiastic Front-end Developer`,
     },
-    description: `A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.`,
+    description: `Dev Journal & Frontend Study Log`,
     siteUrl: `https://gatsbyglass.netlify.app`,
     social: {
-      twitter: `yinkakun`,
+      instagram: `yonapark`,
     },
     socialLinks: [
       {
         name: 'github',
-        url: 'https://github.com',
-      },
-      {
-        name: 'twitter',
-        url: 'https://twitter.com',
+        url: 'https://github.com/YeonhaPark',
       },
       {
         name: 'instagram',
-        url: 'https://instagram.com',
+        url: 'https://instagram.com/yonapark/',
       },
     ],
   },
