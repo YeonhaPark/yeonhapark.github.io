@@ -8,7 +8,7 @@ Suppose we have parent and child component and parent has handler which gets act
 
 The Note component(parent) has to process onChange event from Checkbox component(grandchile) and another onChange event from Ingredient(child).
 
-![IngredientsComponent](../../static/media/210802/ingredients.gif)
+<p align="center"><img src="../../static/media/blog/ingredients.gif" alt="" /></p>
 
 Parent 
 

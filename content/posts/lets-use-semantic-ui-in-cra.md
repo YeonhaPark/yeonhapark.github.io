@@ -4,18 +4,17 @@ date: 2019-08-01
 tags: [react,semantic-ui]
 description: UI 컴포넌트 라이브러리인 Semantic UI를 create-react-app에서 사용해보자
 ---
-
-![semantic ui main simulation](../../static/media/semantic_ui_main.gif)
+<p align="center"><img src="../../static/media/blog/semantic_ui_main.gif" alt="semantic-ui" /></p>
 
 아름다운 UI 컴포넌트들을 사용할 수 있게 도와주는 Semantic UI를 리액트 (create-react-app)상에서 사용하는 방법을 정리해 보았다.
 
-1. 아래 링크로 접속한다.
-
+1. 링크로 접속한다.
 [https://cdnjs.com/libraries/semantic-ui](https://cdnjs.com/libraries/semantic-ui)
 
-2. [https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css](https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css) 를 복사한다.
+2. 
+[https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css](https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css) 를 복사한다.
 
-![how to use semantic ui ](../../static/media/semantic_ui.gif)
+<p><img src="../../static/media/blog/semantic_ui.gif" alt="semantic-ui" /></p>
 
 3. create-react-app으로 시작한 프로젝트의 public 폴더 하단의 index.html로 들어가서, head 태그 내에 해당 css 코드를 추가해준다.
 
@@ -57,4 +56,4 @@ const Button = () => {
 export default Button;
 ```
 
-![button semantic ui](../../static/media/btn.PNG)
+<p><img src="../../static/media/blog/semantic-btn.png" alt="semantic-ui button" /></p>

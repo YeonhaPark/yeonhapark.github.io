@@ -21,7 +21,7 @@ int main(void) {
 
 대략 Hello, world라는 인삿말을 출력하라는 내용이다. 이를 실행하려면 우선 사람의 언어(영어)로 비스무리하게 작성된 것 같은 **C언어를 컴퓨터가 이해할 수 있는 이진법으로 컴파일 하는 과정**을 거쳐야 한다.
 
-![compile procedure](../../static/media/0818/cs50-1.png)
+<p align="center"><img src="../../static/media/blog/cs50-1.png" alt="compile procedure" /></p>
 
 여기서 소스 코드는 C, 파이선, 자바, C++같이 한번쯤 들어봤음직한 프로그래밍 언어이며, 머신 코드는 0과 1로 작성된 컴퓨터가 이해할 수 있는 코드이다. 그리고 **소스코드를 머신 코드로 변환시켜주는 역할을 하는 것이 컴파일러이다.**
 
@@ -31,7 +31,7 @@ C언어에서 컴파일러를 실행하는 명령어는 `clang` 인데,
 
 머신코드로 컴파일된 a.out를 실행하면 비로소 원하는 결과물을 얻을 수 있다.
 
-![printf result](../../static/media/0818/cs50-2.png)
+<p align="center"><img src="../../static/media/blog/cs50-2.png" alt="" /></p>
 
 덧붙여 clang 명령어에서는 출력과 관련한 인자로 `-o` 를 사용할 수 있으며, 컴파일되는 파일명을 지정가능하다.
 
@@ -74,11 +74,12 @@ make string
 
 그러면 놀랍게도 string이라는 컴파일된 파일이 만들어지게(made!) 된다.
 
-![compiled file](../../static/media/0818/cs50-3.png)
+<p><img src="../../static/media/blog/cs50-3.png" alt="compiled file" /></p>
 
 `make`라는 명령어는 알아서(!) 어떤 파일을 생성해야 하는지, 어떤 옵션 인자를 덧붙여야 하는지 등을 찾아서 어떤 프로그램을 만들어야 하는지 찾아낸다.
 
-![bash result](../../static/media/0818/cs50-4.png)
+<p align="center"><img src="../../static/media/blog/cs50-4.png" alt="" /></p>
+![bash result]()
 
 ### 자료형, 형식 지정자
 

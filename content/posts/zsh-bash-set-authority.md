@@ -8,12 +8,11 @@ tags: [bash]
 
 그러면 아래처럼 디렉토리 내의 파일, 폴더에 대한 정보를 표기하고 있는 리스트를 볼 수 있을 것이다.
 
-![파일 리스트와 권한](../../static/media/210721/permission_list_1.png)
+<p align="center"><img src="../../static/media/blog/permission_list_1.png" alt="" /></p>
 
 현 디렉토리에서 `touch new-file.sh` 를 입력해서 스크립트 파일을 하나 생성한 뒤에 다시 한번 `ls -l` 명령어를 입력하면 new-file.sh에 대한 정보도 추가되어있는 것을 확인할 수 있다.
 
-
-![파일권한](../../static/media/210721/permission_setting.png)
+<p align="center"><img src="../../static/media/blog/permission_setting.png" alt="" /> </p>
 
 `-rw-r—r—`
 
@@ -37,5 +36,5 @@ tags: [bash]
 
 따라서 new-file에 대한 현재 권한은 644로 표현될 수 있을 것이다. 이 new-file을 774권한으로 바꾸고 싶다면 터미널에 `chmod 774 new-file.sh` 를 입력하면 된다. (유저, 그룹은 읽기, 쓰기, 실행 권한이 모두 있고 제3자는 읽기 권한만 있음)
 
-![파일 리스트와 권한](../../static/media/210721/permission_list_3.png)
+<p align="center"><img src="../../static/media/blog/permission_list_3.png" alt="permission status" /></p>
 

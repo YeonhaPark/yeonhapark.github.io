@@ -81,6 +81,7 @@ const StyledPostListItem = styled.li`
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
   border-radius: 8px;
+  width: 100%;
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.5);

@@ -34,7 +34,7 @@ API 호출하는 함수를 action creator로 정의하였다. 하지만 위 코�
 
 ES6 이후 버젼으로 쓰여진 코드를 Babel을 이용하여 ES5 버젼으로 컴파일해보자. (우리가 쓰는 코드는 그 형태 그대로 브라우저에 올라가는 것이 아니고 Babel 이라는 컴파일 도구를 통해 브라우저가 이해할 수 있는 ES5 버젼으로 변환되어 올라간다.)
 
-![babeles5](../../static/media/09-22.png)
+<p align="center"><img src="../../static/media/blog/babel.png" alt=""/></p>
 
 위 코드를 복사하여 ES2015 버전으로 변환해보았다. 왼쪽의 10줄 남짓한 코드가 실제로는 오른쪽의 암호같은 복잡한 코드로 이해되는 것이다. ([https://babeljs.io/repl](https://babeljs.io/repl) 에서 실제로 확인 가능하다)
 

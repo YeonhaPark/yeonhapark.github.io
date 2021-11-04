@@ -18,8 +18,12 @@ lastName = window.lastName; // true
 ```
 
 다시 말해두자. <b>글로벌 실행 문맥은 글로벌 영역에 있는 코드, 함수, 변수만을 실행한다.</b> 그렇다면 로컬 영역에 있는 코드, 즉 함수 내에 있는 코드는 어떡할까? 간단하다. 함수를 실행할 때마다 새로운 실행 컨텍스트가 그 위에 만들어진다.
-
-![execution context](../../static/media/execution_context.jpg) (출처: https://medium.com/techracers/execution-context-basics-of-javascript-bb4ef8f1b845)
+<p><img src="../../static/media/blog/execution_context.jpg" alt="실행 컨텍스트" /></p>
+<figcaption align="center">
+<small>
+https://medium.com/techracers/execution-context-basics-of-javascript-bb4ef8f1b845
+</small>
+</figcaption>
 
 글로벌 실행 문맥 위에 새로운 함수가 호출될 때마다 그 함수에 대한 실행 문맥이 생성되고, 함수가 더이상 실행되지 않으면 해당 실행 문맥은 제거된다.
 

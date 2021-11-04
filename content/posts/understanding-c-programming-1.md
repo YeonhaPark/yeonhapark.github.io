@@ -170,7 +170,7 @@ float average(int length, int array[]) {
 
 널 종단 문자를 넣는 이유는 해당 문자를 넣음으로써 메모리 상에 다른 변수가 삽입될 때 그 변수의 시작점을 이전 변수와 비교해야 하기 때문이다.
 
-![string-array](../../static/media/0821/cs50-array-1.png)
+<p align="center"><img src="../../static/media/blog/cs50-array-1.png" alt="c programming string" /></p>
 
 ### 문자열의 활용
 
