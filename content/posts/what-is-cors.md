@@ -2,7 +2,6 @@
 title: CORS란? 그리고 이를 해결하는 방법은?
 date: 2021-12-01
 tags: [network, CORS]
-description: 객체에 Symbol.iterator 속성을 적용하여 자바스크립트의 어떤 콜렉션도 반복 가능한 객체로 만들 수 있다.
 ---
 
 CORS는 Cross—Origin Resource Sharing(교차 출처 리소스 공유)의 약자이다. 브라우저는 보안상의 이유로 웹 애플리케이션이 리소스를 요청할 때 자신의 출처와 동일한 출처의 리소스만 허락하는데, HTTP 헤더에 CORS 헤더를 설정해주면 다른 출처의 리소스도 불러올 수 있다. CORS는 이렇듯 HTTP 헤더를 기반으로 동일한 출처가 아닌 서버의 자원에 접근을 가능케하는 메커니즘이다.
