@@ -54,4 +54,7 @@ CSS는 html 태그의 style 속성에 넣는 인라인 스타일링, 임베디�
 
 브라우저가 HTML 텍스트를 읽고 돔 트리를 형성한다 → 모든 소스에서 가져온 CSS를 읽어서 CSSOM 트리를 형성한다 → 돔 트리와 CSSOM 트리를 가지고 Render-Tree를 형성한다 → Render-Tree를 가지고 엘러먼트를 스크린에 그린다
 
+### 자바스크립트 파일을 body태그의 하단에 위치시켜야 하는 이유
+DOM이 파싱 작업을 하다가 자바스크립트 파일을 만나면 파싱을 중단시키고 스크립트를 실행한다. 이 때문에 DOM의 형성이 지연될 수 있고 자바스크립트 파일 내에 DOM 조작을 하는 코드가 있을 수 있는데 DOM이 형성이 안된 시점에서 조작을 하려는 순서의 미스가 발생할 수 있다.
+
 참고한 글: [https://medium.com/jspoint/how-the-browser-renders-a-web-page-dom-cssom-and-rendering-df10531c9969](https://medium.com/jspoint/how-the-browser-renders-a-web-page-dom-cssom-and-rendering-df10531c9969)
