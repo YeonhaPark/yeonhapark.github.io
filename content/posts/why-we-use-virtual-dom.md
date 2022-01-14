@@ -1,7 +1,7 @@
 ---
 title: Virtual DOM을 사용하는 이유
 date: 2022-01-04
-tags: [react,가상돔, virtual DOM]
+tags: [react,virtualdom]
 ---
 
 가상 돔을 왜 쓸까? => 리얼 돔이 비효율적이기 때문에
@@ -37,4 +37,4 @@ document.getElementById('elementId').innerHTML = "New Value"
 - 리액트의 ReactDOM 라이브러리가 업데이트된 가상돔 업데이트 이전 가상돔을 비교하고 업데이트된 요소들을 파악한다. 이러한 과정을 diffing이라고 한다. 그리고 변경된 사항이 있다면 이를 리얼돔에 반영한다. 이러한 프로세스를 재조정Reconciliation이라고 일컫는다. diffing과정에서 두 돔 사이의 변화가 없다면 DOM 조작을 일어나지 않는다.
 - 업데이트된 리얼돔이 브라우저에 페인트된다.
 
-[https://medium.com/devinder/react-virtual-dom-vs-real-dom-23749ff7adc9](https://medium.com/devinder/react-virtual-dom-vs-real-dom-23749ff7adc9)
+참고: [https://medium.com/devinder/react-virtual-dom-vs-real-dom-23749ff7adc9](https://medium.com/devinder/react-virtual-dom-vs-real-dom-23749ff7adc9)
