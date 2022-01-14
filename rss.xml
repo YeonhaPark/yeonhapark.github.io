@@ -1,11 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 07 Jan 2022 23:26:38 GMT</lastBuildDate><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. 저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.]]></description><link>https://gatsbyglass.netlify.app/contact/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 14 Jan 2022 05:12:59 GMT</lastBuildDate><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. 저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.]]></description><link>https://gatsbyglass.netlify.app/contact/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
 &lt;p&gt;저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Yonas Dev Log Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/</guid><content:encoded>&lt;h1&gt;Yonas Dev Log&lt;/h1&gt;
-&lt;p&gt;Dev Journal &amp;#x26; Frontend Study Log&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About Mee]]></title><description><![CDATA[협업하는 개발자 박연하입니다]]></description><link>https://gatsbyglass.netlify.app/about/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/about/</guid><content:encoded>&lt;h1&gt;협업하는 개발자 박연하입니다&lt;/h1&gt;
+&lt;p&gt;Dev Journal &amp;#x26; Frontend Study Log&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About Me]]></title><description><![CDATA[협업하는 개발자 박연하입니다]]></description><link>https://gatsbyglass.netlify.app/about/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/about/</guid><content:encoded>&lt;h1&gt;협업하는 개발자 박연하입니다&lt;/h1&gt;
 &lt;br&gt;
 서울에 사는 3년차 프론트엔드 개발자입니다
 &lt;br&gt;
 서비스 가치 실현을 위한 코드를 최우선하며,&lt;br&gt;
-더 나은 사회와 세상을 위해 쓰일 프로그램을 만들고 싶습니다</content:encoded></item><item><title><![CDATA[Virtual DOM을 사용하는 이유]]></title><description><![CDATA[가상 돔을 왜 쓸까? => 리얼 돔이 비효율적이기 때문에 애초에 DOM은 서버에 의해 렌더링되는 정적인 UI를 염두에 두고 설계되었다. 리얼 돔에서 다음과 같은 스크립트를 통해 DOM에 변경을 가하는 경우를 보자. 브라우저가 HTML…]]></description><link>https://gatsbyglass.netlify.app/blog/why-we-use-virtual-dom/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/why-we-use-virtual-dom/</guid><pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;가상 돔을 왜 쓸까? =&gt; 리얼 돔이 비효율적이기 때문에&lt;/p&gt;
+더 나은 사회와 세상을 위해 쓰일 프로그램을 만들고 싶습니다</content:encoded></item><item><title><![CDATA[Resume]]></title><description><![CDATA[Career History Projects Academic Background]]></description><link>https://gatsbyglass.netlify.app/resume/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/resume/</guid><content:encoded>&lt;h2&gt;Career History&lt;/h2&gt;
+&lt;br&gt;
+&lt;h3&gt;RyenCatchers&lt;/h3&gt;
+&lt;small&gt;&lt;b&gt;Frontend Developer | 2020-09 - 2021-09&lt;/small&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;p&gt;사용된 기술: React, React Hooks, TypeScript, JavaScript(ES6+), react-hook-form, Material UI, Emotion, Bootstrap4&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;
+- React, TypeScript 기반의 화해(버드뷰) BackOffice 주문관리, 게시판관리, 회원관리, 프로모션관리, 시스템관리 파트 개발
+&lt;/p&gt;
+&lt;p&gt;
+- RESTful API 방식으로 애플리케이션 전반의 CRUD 구현
+&lt;/p&gt;
+&lt;p&gt;
+- React-hook-form을 사용하여 form 입력/제출 시 렌더링 최적화 구현
+&lt;/p&gt;
+&lt;p&gt;
+- Emotion을 활용한 컴포넌트 기반 아키텍쳐 도입으로 재활용성을 높인 프론트엔드 웹 구현
+&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;SuperTree&lt;/h3&gt;
+&lt;b&gt;&lt;small&gt;Frontend Developer | 2019-08 - 2020-04&lt;/small&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;p&gt;사용된 기술: HTML5, CSS3, React, Redux, Redux-thunk, Sass, Bootstrap4, Redux-form, Web3.js, Git&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;
+- ERC 721 형태의 NFT 자산을 거래하기 위한 이더리움 생태계 기반의 중개 서비스 플랫폼 개발
+&lt;/p&gt;
+&lt;p&gt;
+- Web3.js를 통한 프론트엔드 - 이더리움 네트워크 간 인터렉션 구현
+&lt;/p&gt;
+&lt;p&gt;
+- Bootstrap4를 CSS 프레임워크로 적용한 그리드 기반의 적응형 웹 디자인 구현
+&lt;/p&gt;
+&lt;p&gt;
+- Redux, Redux-thunk 및 Redux-form을 활용하여 비동기 동작과 유저 정보 처리 관련 작업 수행
+&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Classting&lt;/h3&gt;
+&lt;small&gt;&lt;b&gt;Frontend Developer(Intern) | 2019-06&lt;/b&gt;&lt;/small&gt;
+&lt;br&gt;
+&lt;p&gt;사용된 기술:HTML5, CSS3, Gatsby, GraphQL, Stylus, CSS Module&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;
+- 클래스팅 브랜드 페이지를 정적 페이지 개발에 최적화된 개츠비를 활용하여 구현
+&lt;/p&gt;
+&lt;p&gt;
+- GraphQL을 통한 정적 쿼리 실현 및 페이지네이션 구현
+&lt;/p&gt;
+&lt;p&gt;
+- CSS Module, Stylus, SASS를 활용한 적응형 웹 디자인 적용
+&lt;/p&gt;
+&lt;br&gt;
+&lt;h2&gt;Projects&lt;/h2&gt;
+&lt;br&gt;
+&lt;h3&gt;My Recipe Note&lt;/h3&gt;
+&lt;b&gt;&lt;small&gt;Entire Project&lt;/small&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;p&gt;사용된 기술: HTML5, CSS3, JavaScript, TypeScript, Node.js, React, MySQL, JWT, Heroku, Netlify&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;
+- 요리법을 기록할 수 있는 레시피 전용 노트앱 구현
+&lt;/p&gt;
+&lt;p&gt;
+- 적응형 웹 디자인을 통해 웹과 모바일 환경에서 편리한 인터페이스 구현
+&lt;/p&gt;
+&lt;p&gt;
+- MySQL, Node.js, React를 활용한 풀스택 프로젝트 구현
+&lt;/p&gt;
+&lt;p&gt;
+- JWT 토큰을 활용한 웹 인증 로그인 구현
+&lt;/p&gt;
+&lt;p&gt;
+- Atomic 디자인을 통한 컴포넌트 중심의 프론트엔드 아키텍쳐 설계
+&lt;/p&gt;
+&lt;p&gt;
+- Heroku(백엔드), Netlify(프론트엔드) 깃허브 연동을 통한 배포 자동화 구현
+&lt;/p&gt;
+&lt;br&gt;
+&lt;h2&gt;Academic Background&lt;/h2&gt;
+&lt;br&gt;
+&lt;h3&gt;WECODE&lt;/h3&gt;
+&lt;p&gt;&lt;small&gt;&lt;b&gt;Extensive Academic Coding Bootcamp | 2019-04 - 2019-06&lt;/b&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;서울시립대학교 도시과학대학&lt;/h3&gt;
+&lt;small&gt;&lt;b&gt;도시행정학과 (경영학부 복수전공) | 2010-03 - 2015-07&lt;/b&gt;&lt;/small&gt;</content:encoded></item><item><title><![CDATA[Virtual DOM을 사용하는 이유]]></title><description><![CDATA[가상 돔을 왜 쓸까? => 리얼 돔이 비효율적이기 때문에 애초에 DOM은 서버에 의해 렌더링되는 정적인 UI를 염두에 두고 설계되었다. 리얼 돔에서 다음과 같은 스크립트를 통해 DOM에 변경을 가하는 경우를 보자. 브라우저가 HTML…]]></description><link>https://gatsbyglass.netlify.app/blog/why-we-use-virtual-dom/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/why-we-use-virtual-dom/</guid><pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;가상 돔을 왜 쓸까? =&gt; 리얼 돔이 비효율적이기 때문에&lt;/p&gt;
 &lt;p&gt;애초에 DOM은 서버에 의해 렌더링되는 정적인 UI를 염두에 두고 설계되었다. 리얼 돔에서 다음과 같은 스크립트를 통해 DOM에 변경을 가하는 경우를 보자.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;elementId&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;New Value&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol&gt;
