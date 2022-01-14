@@ -1,7 +1,7 @@
 ---
 title: Virtual DOM을 사용하는 이유
 date: 2022-01-04
-tags: [react,가상돔, virtual DOM]
+tags: [react, virtualDOM]
 ---
 
 가상 돔을 왜 쓸까? => 리얼 돔이 비효율적이기 때문에
