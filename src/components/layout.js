@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import SEO from './seo';
-import Header from './header';
+import SEO from './SEO';
+import Header from './Header';
 import Footer from './footer';
 import Container from './container';
 import GlobalStyle from './global-styles';

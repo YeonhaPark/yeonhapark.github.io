@@ -2,26 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 import Container from './container';
-import { useStaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 
-const Header = () => {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `
-  );
-
+const MyHeader = ({site}) => {
   return (
     <StyledHeader>
       <HeaderWrapper>
         <HeaderTitle>
-          <Link to="/">{site.siteMetadata.title}</Link>
+          <Link to="/">{site?.siteMetadata.title}</Link>
         </HeaderTitle>
 
         <HeaderNavList>
@@ -35,14 +23,25 @@ const Header = () => {
           <HeaderNavListItem>
             <Link to="/resume">Resume</Link>
           </HeaderNavListItem>
-
-          {/* <HeaderNavListItem>
-            <Link to="/contact">Contact</Link>
-          </HeaderNavListItem> */}
         </HeaderNavList>
       </HeaderWrapper>
     </StyledHeader>
   );
+};
+
+const Header = (props) => {
+ return<StaticQuery
+    query={graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `}
+    render={data => <MyHeader data={ data } {...props} />}
+  />;
 };
 
 export default Header;

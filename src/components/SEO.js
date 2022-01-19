@@ -1,27 +1,12 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
-import { useStaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 
-const SEO = ({ description, lang, meta, title }) => {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            social {
-              twitter
-            }
-          }
-        }
-      }
-    `
-  );
+const MySEO = ({ site, description, lang, meta, title }) => {
 
-  const metaDescription = description || site.siteMetadata.description;
-  const defaultTitle = site.siteMetadata?.title;
+  const metaDescription = description || site?.siteMetadata.description;
+  const defaultTitle = site?.siteMetadata?.title;
 
   return (
     <Helmet
@@ -54,7 +39,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.social?.twitter || ``,
+          content: site?.siteMetadata?.social?.twitter || ``,
         },
         {
           name: `twitter:title`,
@@ -69,6 +54,23 @@ const SEO = ({ description, lang, meta, title }) => {
   );
 };
 
+const SEO = (props) => {
+  return <StaticQuery 
+  query={graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        description
+        social {
+          twitter
+        }
+      }
+    }
+  }
+  `}
+  render={(data) => <MySEO data={data} {...props} />}/>
+}
 SEO.defaultProps = {
   lang: `en`,
   meta: [],

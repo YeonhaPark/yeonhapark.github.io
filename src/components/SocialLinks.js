@@ -1,22 +1,10 @@
 import React from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
+import { graphql, StaticQuery } from 'gatsby';
 import styled from 'styled-components';
 
-const SocialLinks = () => {
-  const data = useStaticQuery(graphql`
-    {
-      site {
-        siteMetadata {
-          socialLinks {
-            name
-            url
-          }
-        }
-      }
-    }
-  `);
+const MySocialLinks = ({site}) => {
 
-  const socialLinks = data.site.siteMetadata.socialLinks.map((link) => {
+  const socialLinks = site?.siteMetadata.socialLinks.map((link) => {
     return (
       <SocialLinkItem key={link.name}>
         <a href={link.url}>{link.name}</a>
@@ -27,6 +15,22 @@ const SocialLinks = () => {
   return <SocialLinkList>{socialLinks}</SocialLinkList>;
 };
 
+const SocialLinks = (props) => {
+  return <StaticQuery 
+  query={graphql`
+  {
+    site {
+      siteMetadata {
+        socialLinks {
+          name
+          url
+        }
+      }
+    }
+  }
+`}
+  render={(data) => <MySocialLinks data={data} {...props}/>}/>
+}
 export default SocialLinks;
 
 const SocialLinkList = styled.ul`
