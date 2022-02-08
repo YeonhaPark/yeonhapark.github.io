@@ -73,7 +73,7 @@ template: resume-template
 <b><small>Entire Project</small></b>
 <br>
 
-<p>사용된 기술: HTML5, CSS3, JavaScript, TypeScript, Node.js, React, MySQL, JWT, Heroku, Netlify</p>
+<p>사용된 기술: HTML5, CSS3, JavaScript, TypeScript, Node.js, Express, Sequelize, React, MySQL, JWT, Heroku, Netlify</p>
 <br>
 <p>
 - 요리법을 기록할 수 있는 레시피 전용 노트앱 구현

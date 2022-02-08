@@ -7,18 +7,20 @@ import styled from 'styled-components';
 const presentation = [{id: 1, name: "협업하는 개발자 박연하입니다. 가치 전달에 충실한 서비스를 만들기 위해 더 좋은 개발자로 성장해 나아가고자 합니다"}]
 
 const technicalSkills = [
-  { id: 1, name: '- React' },
-  { id: 2, name: '- TypeScript' },
-  { id: 3, name: '- Redux' },
-  { id: 4, name: '- HTML5 & CSS3' },
+  { id: 1, name: '- JavaScript/TypeScript' },
+  { id: 2, name: '- HTML5 & CSS3' },
+  { id: 3, name: '- React' },
+  { id: 4, name: '- Redux' },
   { id: 5, name: '- SASS' },
   { id: 6, name: '- Emotion' },
+  { id: 7, name: '- Gatsby' },
   { id: 8, name: '- Styled Component' },
   { id: 9, name: '- Git' },
 ];
 const languageSkills = [
   { id: 1, name: 'English(Professional Proficiency)' },
   { id: 2, name: 'Spanish(Professional Proficiency)' },
+  { id: 3, name: 'Korean(Native)' },
 ];
 const contacts = [
   { id: 1, name: 'Email: yonaprisca@gmail.com' },
