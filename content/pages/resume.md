@@ -60,7 +60,7 @@ template: resume-template
 - GraphQL을 통한 정적 쿼리 실현 및 페이지네이션 구현
 </p>
 <p>
-- CSS Module, Stylus, SASS를 활용한 적응형 웹 디자인 적용
+- CSS Module, Stylus, SASS를 활용한 반응형 웹 디자인 적용
 </p>
 
 <br>
@@ -79,7 +79,7 @@ template: resume-template
 - 요리법을 기록할 수 있는 레시피 전용 노트앱 구현
 </p>
 <p>
-- 적응형 웹 디자인을 통해 웹과 모바일 환경에서 편리한 인터페이스 구현
+- 반응형 웹 디자인을 통해 웹과 모바일 환경에서 편리한 인터페이스 구현
 </p>
 <p>
 - MySQL, Node.js, React를 활용한 풀스택 프로젝트 구현
