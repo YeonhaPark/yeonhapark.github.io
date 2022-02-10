@@ -10,7 +10,8 @@ tags: [html, web-development]
 
 `text/html` 은 MIME 타입의 일종으로 브라우저에게 자신이 보내는 리소스가 html 형식의 문서임을 알려준다. 그리고 `charset=UTF-8` 은 해당 리소스가 UTF-8 인코딩에 준한다는 것을 알려준다. 이 두가지 정보를 활용해 브라우저는 바이너리 형식을 읽을 수 있는 텍스트 파일로 변환한다. 
 
-![browser-request-html-file](../../static/media/blog/how-wp-made/mime-texthtml.webp)
+<p align="center">
+<img src="../../static/media/blog/how-wp-made/mime-texthtml.webp" alt="browser-request-html-file" /></p>
 
 이렇게 헤더가 명시되지 않으면 브라우저는 파일을 어떻게 다뤄야할지 몰라서 텍스트 형식으로 화면에 나타낸다. 다행히 헤더가 명시된다면 HTML 문서에 대한 변환 작업을 시작한다.
 
@@ -46,7 +47,8 @@ tags: [html, web-development]
 
 모든 HTML 엘러먼트는 다른 프로퍼티를 지니고 있고 노드 오브젝트는 엘러먼트의 속성에 따라 다른 클래스에서 인스턴스화 된다. 예를 들어, `ul` 태그 요소는 `Node`클래스를 상속 받고 `HTMLUListElement`를 상속받지만 `HTMLDivElement`는 상속받지 않는다.
 
-![ul-node-inherits-classes](../../static/media/blog/how-wp-made/node-elem.webp)
+<p align="center">
+<img src="../../static/media/blog/how-wp-made/node-elem.webp" alt="ul-node-inherits-classes" /></p>
 
 브라우저는 HTML 문서로부터 노드 오브젝트들을 생성하고 나서 오브젝트들을 트리 구조로 발전시킨다. 이렇게 하는 이유는 기존에 생성되었던 트리를 활용하면 중복되는 엘러먼트를 생성해야 할 때 생성과정을 반복할 필요 없이 이전에 생성된 트리를 활용할 수 있기 때문이다.
 
