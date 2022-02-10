@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 10 Feb 2022 23:36:51 GMT</lastBuildDate><item><title><![CDATA[About Me]]></title><description><![CDATA[협업하는 개발자 박연하입니다]]></description><link>https://gatsbyglass.netlify.app/about/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/about/</guid><content:encoded>&lt;h1&gt;협업하는 개발자 박연하입니다&lt;/h1&gt;
-&lt;br&gt;
-서울에 사는 3년차 프론트엔드 개발자입니다
-&lt;br&gt;
-서비스 가치 실현을 위한 코드를 최우선하며,&lt;br&gt;
-더 나은 사회와 세상을 위해 쓰일 프로그램을 만들고 싶습니다</content:encoded></item><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. 저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.]]></description><link>https://gatsbyglass.netlify.app/contact/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
-&lt;p&gt;저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Yonas Dev Log Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/</guid><content:encoded>&lt;h1&gt;Yonas Dev Log&lt;/h1&gt;
-&lt;p&gt;Dev Journal &amp;#x26; Frontend Study Log&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Resume]]></title><description><![CDATA[Career History Projects Academic Background]]></description><link>https://gatsbyglass.netlify.app/resume/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/resume/</guid><content:encoded>&lt;h2&gt;Career History&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 10 Feb 2022 23:42:27 GMT</lastBuildDate><item><title><![CDATA[Resume]]></title><description><![CDATA[Career History Projects Academic Background]]></description><link>https://gatsbyglass.netlify.app/resume/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/resume/</guid><content:encoded>&lt;h2&gt;Career History&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3&gt;RyenCatchers&lt;/h3&gt;
 &lt;small&gt;&lt;b&gt;Frontend Developer | 2020-09 - 2021-09&lt;/small&gt;&lt;/b&gt;
@@ -55,7 +48,7 @@
 - GraphQL을 통한 정적 쿼리 실현 및 페이지네이션 구현
 &lt;/p&gt;
 &lt;p&gt;
-- CSS Module, Stylus, SASS를 활용한 적응형 웹 디자인 적용
+- CSS Module, Stylus, SASS를 활용한 반응형 웹 디자인 적용
 &lt;/p&gt;
 &lt;br&gt;
 &lt;h2&gt;Projects&lt;/h2&gt;
@@ -69,7 +62,7 @@
 - 요리법을 기록할 수 있는 레시피 전용 노트앱 구현
 &lt;/p&gt;
 &lt;p&gt;
-- 적응형 웹 디자인을 통해 웹과 모바일 환경에서 편리한 인터페이스 구현
+- 반응형 웹 디자인을 통해 웹과 모바일 환경에서 편리한 인터페이스 구현
 &lt;/p&gt;
 &lt;p&gt;
 - MySQL, Node.js, React를 활용한 풀스택 프로젝트 구현
@@ -90,7 +83,14 @@
 &lt;p&gt;&lt;small&gt;&lt;b&gt;Extensive Academic Coding Bootcamp | 2019-04 - 2019-06&lt;/b&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;h3&gt;서울시립대학교 도시과학대학&lt;/h3&gt;
-&lt;small&gt;&lt;b&gt;도시행정학과 (경영학부 복수전공) | 2010-03 - 2015-07&lt;/b&gt;&lt;/small&gt;</content:encoded></item><item><title><![CDATA[디버깅(Debugging)]]></title><description><![CDATA[Debugging은 스크립트 내 에러를 검출해 제거하는 일련의 과정을 의미한다. 모던 브라우저와 호스트 환경 대부분은 개발자 도구 안에 UI…]]></description><link>https://gatsbyglass.netlify.app/blog/debugging/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/debugging/</guid><pubDate>Wed, 09 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Debugging은 스크립트 내 에러를 검출해 제거하는 일련의 과정을 의미한다. 모던 브라우저와 호스트 환경 대부분은 개발자 도구 안에 UI 형태로 디버깅 툴을 구비해 놓는다. 이러한 디버깅 툴을 활용해서 디버깅을 쉽게 하고 코드가 어떻게 실행되는지 추적할 수 있다.&lt;/p&gt;
+&lt;small&gt;&lt;b&gt;도시행정학과 (경영학부 복수전공) | 2010-03 - 2015-07&lt;/b&gt;&lt;/small&gt;</content:encoded></item><item><title><![CDATA[About Me]]></title><description><![CDATA[협업하는 개발자 박연하입니다]]></description><link>https://gatsbyglass.netlify.app/about/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/about/</guid><content:encoded>&lt;h1&gt;협업하는 개발자 박연하입니다&lt;/h1&gt;
+&lt;br&gt;
+서울에 사는 3년차 프론트엔드 개발자입니다
+&lt;br&gt;
+서비스 가치 실현을 위한 코드를 최우선하며,&lt;br&gt;
+더 나은 사회와 세상을 위해 쓰일 프로그램을 만들고 싶습니다</content:encoded></item><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. 저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.]]></description><link>https://gatsbyglass.netlify.app/contact/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
+&lt;p&gt;저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Yonas Dev Log Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/</guid><content:encoded>&lt;h1&gt;Yonas Dev Log&lt;/h1&gt;
+&lt;p&gt;Dev Journal &amp;#x26; Frontend Study Log&lt;/p&gt;</content:encoded></item><item><title><![CDATA[디버깅(Debugging)]]></title><description><![CDATA[Debugging은 스크립트 내 에러를 검출해 제거하는 일련의 과정을 의미한다. 모던 브라우저와 호스트 환경 대부분은 개발자 도구 안에 UI…]]></description><link>https://gatsbyglass.netlify.app/blog/debugging/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/debugging/</guid><pubDate>Wed, 09 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Debugging은 스크립트 내 에러를 검출해 제거하는 일련의 과정을 의미한다. 모던 브라우저와 호스트 환경 대부분은 개발자 도구 안에 UI 형태로 디버깅 툴을 구비해 놓는다. 이러한 디버깅 툴을 활용해서 디버깅을 쉽게 하고 코드가 어떻게 실행되는지 추적할 수 있다.&lt;/p&gt;
 &lt;h1&gt;1) 크롬 브라우저에서 제공하는 디버깅 툴 활용하기&lt;/h1&gt;
 &lt;h3&gt;Sources 패널&lt;/h3&gt;
 &lt;p&gt;&lt;span
