@@ -4,17 +4,30 @@ date: 2021-12-01
 tags: [network, CORS]
 ---
 
-CORS는 Cross—Origin Resource Sharing(교차 출처 리소스 공유)의 약자이다. 브라우저는 보안상의 이유로 웹 애플리케이션이 리소스를 요청할 때 자신의 출처와 동일한 출처의 리소스만 허락하는데, HTTP 헤더에 CORS 헤더를 설정해주면 다른 출처의 리소스도 불러올 수 있다. CORS는 이렇듯 HTTP 헤더를 기반으로 동일한 출처가 아닌 서버의 자원에 접근을 가능케하는 메커니즘이다.
+CORS는 Cross—Origin Resource Sharing(교차 출처 리소스 공유)의 약자이다. 브라우저는 보안상의 이유로 웹 애플리케이션이 리소스를 요청할 때 자신의 출처와 동일한 출처의 리소스만 허락한다. 
 
-애플리케이션 측에서 서버에 API 요청을 보내면 서버는 `Access-Control-Allow-Origin` 헤더를 포함한 응답을 브라우저에 보낸다. 브라우저는 `Access-Control-Allow-Origin` 헤더를 확인해서 CORS 동작을 수행할지를 판단한다.
+<p align="center"><img src="../../static/media/blog/cors/cors_overview.webp" alt="CORS의 원리" /></p>
+<figcaption align="center">
+<small>
+https://docs.oracle.com/cd/E65459_01/dev.1112/e65461/content/general_cors.html
+</small>
+</figcaption>
 
-웹 클라이언트 어플리케이션이 리소스를 요청할 때는 HTTP 프로토콜을 사용하여 요청을 보내게 되는데, 이 때 브라우저는 요청 헤더의 `Origin` 이라는 필드에 요청을 보내는 출처를 담아 보낸다.
+
+즉, https://www.domain-a.com 도메인이 하는 요청이 https://www.domain-a.com 도메인이어야만 바라는 응답을 받을 수 있다는 이야기다. 
+하지만 대부분의 클라이언트-서버 요청은 클라이언트와 서버의 URL이 다르다! 그럼 어떻게 서로 다른 도메인간의 통신이 가능한걸까?
+
+
+서버에서 응답으로 보내는 HTTP 헤더에 CORS 헤더를 설정해주면 다른 출처의 리소스도 불러올 수 있기 때문이다. CORS는 이렇듯 HTTP 헤더를 기반으로 <b>동일한 출처가 아닌 서버의 자원에 접근을 가능케하는 메커니즘</b>이다.
+
+애플리케이션 측에서 서버에 API 요청을 보낼 때 요청 헤더의 `Origin` 이라는 필드에 요청을 보내는 출처를 담아 보낸다. 
 
 ```js
 Origin: https://yeonhapark.github.io
 ```
 
-이후 서버가 이 요청에 대한 응답을 할 때 응답헤더의 `Access-Control-Allow-Origin` 이라는 값에 리소스에 접근이 허용된 출처를 내려주고, 응답을 받은 브라우저는 자신이 보냈던 요청의 `Origin` 과 서버가 보내준 응답의 `Access-Control-Allow-Origin` 을 비교해본 후 응답이 유효한 응답인지 아닌지를 결정한다.
+이를 받으면 서버는 `Access-Control-Allow-Origin` 헤더에 `Origin`을 명시해서 브라우저에게 응답한다. 서버가 `Access-Control-Allow-Origin`에 담는 내용은 반드시 클라이언트 측에서 보내진 `Origin`일 필요는 없고, 리소스에 접근이 허용된 출처를 명시해주면 된다. 이 응답을 받으면 브라우저는 자신이 보냈던 요청의 `Origin` 과 서버가 보내준 응답의 `Access-Control-Allow-Origin` 을 비교해본 후 응답이 유효한 응답인지 아닌지를 결정한다.
+
 
 기본적인 작동 방식은 위와 같지만 정확히 어떤 것이 잘못되었는지 알려면 아래의 세 가지 시나리오에 대해 알아두는 것이 좋다.
 
