@@ -10,7 +10,7 @@ const Layout = ({ children, title, description }) => {
   return (
     <Fragment>
       <GlobalStyle />
-      <SEO title={title} description={description} />
+      <SEO title={title} />
       <LayoutWrapper>
         <Header />
         <main>

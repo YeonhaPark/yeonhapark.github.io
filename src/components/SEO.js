@@ -4,9 +4,7 @@ import { Helmet } from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
 const MySEO = ({ site, description, lang, meta, title }) => {
-
   const metaDescription = description || site?.siteMetadata.description;
-  const defaultTitle = site?.siteMetadata?.title;
 
   return (
     <Helmet
@@ -14,8 +12,6 @@ const MySEO = ({ site, description, lang, meta, title }) => {
         lang,
       }}
       title={title}
-      titleTemplate={`%s - ${defaultTitle}`}
-      defaultTitle={defaultTitle}
       meta={[
         {
           name: `description`,
