@@ -5,10 +5,24 @@ template: resume-template
 
 ## Career History
 <br>
+<h3>Cenaclesoft</h3>
+<small><b>Frontend Developer | 2022-03 - present</small></b>
+<br>
+<p>사용된 기술: React, Next.js, JavaScript(ES6+), react-hook-form</p>
+<br>
+
+<p>
+- 클라우드 기반의 웹 EMR(전자의무기록) 개발
+</p>
+<p>
+- 운영 백오피스 시스템 개발
+</p>
+
+<br>
 <h3>RyenCatchers</h3>
 <small><b>Frontend Developer | 2020-09 - 2021-09</small></b>
 <br>
-<p>사용된 기술: React, React Hooks, TypeScript, JavaScript(ES6+), react-hook-form, Material UI, Emotion, Bootstrap4</p>
+<p>사용된 기술: React, TypeScript, JavaScript(ES6+), react-hook-form, Material UI, Emotion, Bootstrap4</p>
 <br>
 
 <p>
@@ -97,10 +111,6 @@ template: resume-template
 <br>
 
 ## Academic Background
-<br>
-<h3>WECODE</h3>
-<p><small><b>Extensive Academic Coding Bootcamp | 2019-04 - 2019-06</b></small></p>
-
 <br>
 
 <h3>서울시립대학교 도시과학대학</h3>

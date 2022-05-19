@@ -4,13 +4,14 @@ import Skills from '../components/skills';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 
-const presentation = [{id: 1, name: "협업하는 개발자 박연하입니다. 가치 전달에 충실한 서비스를 만들기 위해 더 좋은 개발자로 성장해 나아가고자 합니다"}]
+const presentation = [{id: 1, name: "협업하는 개발자 박연하입니다. 고객 가치 전달에 충실한 서비스와 프로덕트를 만들기 위해 노력합니다"}]
 
 const technicalSkills = [
   { id: 1, name: '- JavaScript/TypeScript' },
   { id: 2, name: '- HTML5 & CSS3' },
-  { id: 3, name: '- React' },
+  { id: 3, name: '- React/Next.js' },
   { id: 4, name: '- Redux' },
+  { id: 4, name: '- Recoil' },
   { id: 5, name: '- SASS' },
   { id: 6, name: '- Emotion' },
   { id: 7, name: '- Gatsby' },
