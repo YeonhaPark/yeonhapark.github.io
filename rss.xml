@@ -1,15 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 06 May 2022 09:53:15 GMT</lastBuildDate><item><title><![CDATA[About Me]]></title><description><![CDATA[협업하는 개발자 박연하입니다]]></description><link>https://gatsbyglass.netlify.app/about/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/about/</guid><content:encoded>&lt;h1&gt;협업하는 개발자 박연하입니다&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 19 May 2022 07:10:22 GMT</lastBuildDate><item><title><![CDATA[Resume]]></title><description><![CDATA[Career History Projects Academic Background]]></description><link>https://gatsbyglass.netlify.app/resume/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/resume/</guid><content:encoded>&lt;h2&gt;Career History&lt;/h2&gt;
 &lt;br&gt;
-서울에 사는 3년차 프론트엔드 개발자입니다
+&lt;h3&gt;Cenaclesoft&lt;/h3&gt;
+&lt;small&gt;&lt;b&gt;Frontend Developer | 2022-03 - present&lt;/small&gt;&lt;/b&gt;
 &lt;br&gt;
-서비스 가치 실현을 위한 코드를 최우선하며,&lt;br&gt;
-더 나은 사회와 세상을 위해 쓰일 프로그램을 만들고 싶습니다</content:encoded></item><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. 저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.]]></description><link>https://gatsbyglass.netlify.app/contact/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
-&lt;p&gt;저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Resume]]></title><description><![CDATA[Career History Projects Academic Background]]></description><link>https://gatsbyglass.netlify.app/resume/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/resume/</guid><content:encoded>&lt;h2&gt;Career History&lt;/h2&gt;
+&lt;p&gt;사용된 기술: React, Next.js, JavaScript(ES6+), react-hook-form&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;
+- 클라우드 기반의 웹 EMR(전자의무기록) 개발
+&lt;/p&gt;
+&lt;p&gt;
+- 운영 백오피스 시스템 개발
+&lt;/p&gt;
 &lt;br&gt;
 &lt;h3&gt;RyenCatchers&lt;/h3&gt;
 &lt;small&gt;&lt;b&gt;Frontend Developer | 2020-09 - 2021-09&lt;/small&gt;&lt;/b&gt;
 &lt;br&gt;
-&lt;p&gt;사용된 기술: React, React Hooks, TypeScript, JavaScript(ES6+), react-hook-form, Material UI, Emotion, Bootstrap4&lt;/p&gt;
+&lt;p&gt;사용된 기술: React, TypeScript, JavaScript(ES6+), react-hook-form, Material UI, Emotion, Bootstrap4&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;
 - React, TypeScript 기반의 화해(버드뷰) BackOffice 주문관리, 게시판관리, 회원관리, 프로모션관리, 시스템관리 파트 개발
@@ -85,12 +91,15 @@
 &lt;br&gt;
 &lt;h2&gt;Academic Background&lt;/h2&gt;
 &lt;br&gt;
-&lt;h3&gt;WECODE&lt;/h3&gt;
-&lt;p&gt;&lt;small&gt;&lt;b&gt;Extensive Academic Coding Bootcamp | 2019-04 - 2019-06&lt;/b&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;br&gt;
 &lt;h3&gt;서울시립대학교 도시과학대학&lt;/h3&gt;
 &lt;small&gt;&lt;b&gt;도시행정학과 (경영학부 복수전공) | 2010-03 - 2015-07&lt;/b&gt;&lt;/small&gt;</content:encoded></item><item><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Yonas Dev Log Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/</guid><content:encoded>&lt;h1&gt;Yonas Dev Log&lt;/h1&gt;
-&lt;p&gt;Dev Journal &amp;#x26; Frontend Study Log&lt;/p&gt;</content:encoded></item><item><title><![CDATA[encodeURI VS encodeURIComponent]]></title><description><![CDATA[함수는 URI의 특정한 문자를 UTF-8로 인코딩해 하나, 둘, 셋, 혹은 네 개의 연속된 이스케이프 문자로 나타낸다.  encodeURI encodeURIComponent URI의 특정한 문자를 UTF-…]]></description><link>https://gatsbyglass.netlify.app/blog/encodeURI-vs-encodeURIComponent/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/encodeURI-vs-encodeURIComponent/</guid><pubDate>Fri, 06 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;encodeURI()&lt;/code&gt;&lt;/strong&gt;
+&lt;p&gt;Dev Journal &amp;#x26; Frontend Study Log&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About Me]]></title><description><![CDATA[협업하는 개발자 박연하입니다]]></description><link>https://gatsbyglass.netlify.app/about/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/about/</guid><content:encoded>&lt;h1&gt;협업하는 개발자 박연하입니다&lt;/h1&gt;
+&lt;br&gt;
+서울에 사는 3년차 프론트엔드 개발자입니다
+&lt;br&gt;
+서비스 가치 실현을 위한 코드를 최우선하며,&lt;br&gt;
+더 나은 사회와 세상을 위해 쓰일 프로그램을 만들고 싶습니다</content:encoded></item><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. 저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.]]></description><link>https://gatsbyglass.netlify.app/contact/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
+&lt;p&gt;저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[encodeURI VS encodeURIComponent]]></title><description><![CDATA[함수는 URI의 특정한 문자를 UTF-8로 인코딩해 하나, 둘, 셋, 혹은 네 개의 연속된 이스케이프 문자로 나타낸다.  encodeURI encodeURIComponent URI의 특정한 문자를 UTF-…]]></description><link>https://gatsbyglass.netlify.app/blog/encodeURI-vs-encodeURIComponent/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/encodeURI-vs-encodeURIComponent/</guid><pubDate>Fri, 06 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;encodeURI()&lt;/code&gt;&lt;/strong&gt;
  함수는 &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Glossary/URI&quot;&gt;URI&lt;/a&gt;의 특정한 문자를 UTF-8로 인코딩해 하나, 둘, 셋, 혹은 네 개의 연속된 이스케이프 문자로 나타낸다. &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; uri &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;https://mozilla.org/?x=шеллы&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; encoded &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;encodeURI&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;uri&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
