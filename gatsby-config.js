@@ -29,6 +29,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-remark-emoji`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
