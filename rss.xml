@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 19 May 2022 07:10:22 GMT</lastBuildDate><item><title><![CDATA[Resume]]></title><description><![CDATA[Career History Projects Academic Background]]></description><link>https://gatsbyglass.netlify.app/resume/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/resume/</guid><content:encoded>&lt;h2&gt;Career History&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 15 Dec 2022 06:45:50 GMT</lastBuildDate><item><title><![CDATA[About Me]]></title><description><![CDATA[협업하는 개발자 박연하입니다]]></description><link>https://gatsbyglass.netlify.app/about/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/about/</guid><content:encoded>&lt;h1&gt;협업하는 개발자 박연하입니다&lt;/h1&gt;
+&lt;br&gt;
+서울에 사는 3년차 프론트엔드 개발자입니다
+&lt;br&gt;
+서비스 가치 실현을 위한 코드를 최우선하며,&lt;br&gt;
+더 나은 사회와 세상을 위해 쓰일 프로그램을 만들고 싶습니다</content:encoded></item><item><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Yonas Dev Log Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/</guid><content:encoded>&lt;h1&gt;Yonas Dev Log&lt;/h1&gt;
+&lt;p&gt;Dev Journal &amp;#x26; Frontend Study Log&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. 저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.]]></description><link>https://gatsbyglass.netlify.app/contact/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
+&lt;p&gt;저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Resume]]></title><description><![CDATA[Career History Projects Academic Background]]></description><link>https://gatsbyglass.netlify.app/resume/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/resume/</guid><content:encoded>&lt;h2&gt;Career History&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3&gt;Cenaclesoft&lt;/h3&gt;
 &lt;small&gt;&lt;b&gt;Frontend Developer | 2022-03 - present&lt;/small&gt;&lt;/b&gt;
@@ -92,14 +99,42 @@
 &lt;h2&gt;Academic Background&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3&gt;서울시립대학교 도시과학대학&lt;/h3&gt;
-&lt;small&gt;&lt;b&gt;도시행정학과 (경영학부 복수전공) | 2010-03 - 2015-07&lt;/b&gt;&lt;/small&gt;</content:encoded></item><item><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Yonas Dev Log Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/</guid><content:encoded>&lt;h1&gt;Yonas Dev Log&lt;/h1&gt;
-&lt;p&gt;Dev Journal &amp;#x26; Frontend Study Log&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About Me]]></title><description><![CDATA[협업하는 개발자 박연하입니다]]></description><link>https://gatsbyglass.netlify.app/about/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/about/</guid><content:encoded>&lt;h1&gt;협업하는 개발자 박연하입니다&lt;/h1&gt;
-&lt;br&gt;
-서울에 사는 3년차 프론트엔드 개발자입니다
-&lt;br&gt;
-서비스 가치 실현을 위한 코드를 최우선하며,&lt;br&gt;
-더 나은 사회와 세상을 위해 쓰일 프로그램을 만들고 싶습니다</content:encoded></item><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. 저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.]]></description><link>https://gatsbyglass.netlify.app/contact/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
-&lt;p&gt;저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[encodeURI VS encodeURIComponent]]></title><description><![CDATA[함수는 URI의 특정한 문자를 UTF-8로 인코딩해 하나, 둘, 셋, 혹은 네 개의 연속된 이스케이프 문자로 나타낸다.  encodeURI encodeURIComponent URI의 특정한 문자를 UTF-…]]></description><link>https://gatsbyglass.netlify.app/blog/encodeURI-vs-encodeURIComponent/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/encodeURI-vs-encodeURIComponent/</guid><pubDate>Fri, 06 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;encodeURI()&lt;/code&gt;&lt;/strong&gt;
+&lt;small&gt;&lt;b&gt;도시행정학과 (경영학부 복수전공) | 2010-03 - 2015-07&lt;/b&gt;&lt;/small&gt;</content:encoded></item><item><title><![CDATA[React CRA에서 prop-types와 jsdoc 함께 사용해서 VS Code의 Auto Suggestion 기능 사용하기]]></title><description><![CDATA[prop-types는 리액트에서 제공하는 라이브러리라서 따로 설치할 필요가 없다. TypeScript를 사용하지 않는다면 (혹은 사용할 수 없다면) prop-types로 타이핑 서포트가 가능하다. jsdoc은 VS Code…]]></description><link>https://gatsbyglass.netlify.app/blog/using-proptypes-jsdoc/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/using-proptypes-jsdoc/</guid><pubDate>Thu, 15 Dec 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;prop-types는 리액트에서 제공하는 라이브러리라서 따로 설치할 필요가 없다. TypeScript를 사용하지 않는다면 (혹은 사용할 수 없다면) prop-types로 타이핑 서포트가 가능하다.&lt;/p&gt;
+&lt;p&gt;jsdoc은 VS Code에서 별다른 설정 없이 사용할 수 있다. &lt;/p&gt;
+&lt;p&gt;vscode extension이 있긴 한데 깔아도 별 효과가 없는 것 같다(?) 안깔아도 잘 된다..&lt;/p&gt;
+&lt;p&gt;js-doc과 prop-types를 사용하여 컴포넌트를 정의하고 사용하는 쪽에서 Auto Suggestion 기능을 활용할 수 있다.&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;video width=&quot;600&quot; height=&quot;520&quot; controls&gt;
+  &lt;source src=&quot;/ccb9df8e9c811affdae58018bc48607d/jsdoc-autofill.mp4&quot; type=&quot;video/mp4&quot;&gt;
+&lt;/video&gt;
+&lt;figcaption align=&quot;center&quot;&gt;
+&lt;small&gt;출처 https://code.visualstudio.com/docs/editor/intellisense&lt;/small&gt;
+&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;h3&gt;proptypes와 jsdoc을 사용하기 이전&lt;/h3&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;video width=&quot;600&quot; height=&quot;560&quot; controls&gt;
+  &lt;source src=&quot;/7fe27125b3a3e226e5ef480d544c6b7f/before_proptypes.mov&quot; type=&quot;video/mp4&quot;&gt;
+&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;Hover를 해도 any 타입의 suggestion이 떠서 타입 미리보기를 할 수가 없다.&lt;/p&gt;
+&lt;h3&gt;proptypes와 jsdoc을 사용하고 난 후&lt;/h3&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;video width=&quot;600&quot; height=&quot;560&quot; controls&gt;
+  &lt;source src=&quot;/e8de1c0cded7829bd0b2241b952ff5c0/after_proptypes.mov&quot; type=&quot;video/mp4&quot;&gt;
+&lt;/video&gt;
+&lt;/div&gt;
+&lt;p&gt;PropTypes로 지정해준 Prop 타입을 js-doc의 파람값에 지정하면 Destructuring해서 가져오는 프롭스의 키값에 해당하는 밸류의 타입을 알 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codesandbox.io/s/proptypes-9cw63w?file=/src/App.js&quot;&gt;View Code&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PropTypes 자세한 사용법은 아래 참고&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://reactjs.org/docs/typechecking-with-proptypes.html&quot;&gt;Typechecking With PropTypes – React&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;js-doc 자세한 사용법은 아래 참고&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://jsdoc.app/index.html&quot;&gt;Use JSDoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/maxbvrn/react-props-auto-complete-in-vs-code-2ana&quot;&gt;React props auto-complete in VS Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[encodeURI VS encodeURIComponent]]></title><description><![CDATA[함수는 URI의 특정한 문자를 UTF-8로 인코딩해 하나, 둘, 셋, 혹은 네 개의 연속된 이스케이프 문자로 나타낸다.  encodeURI encodeURIComponent URI의 특정한 문자를 UTF-…]]></description><link>https://gatsbyglass.netlify.app/blog/encodeURI-vs-encodeURIComponent/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/encodeURI-vs-encodeURIComponent/</guid><pubDate>Fri, 06 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;encodeURI()&lt;/code&gt;&lt;/strong&gt;
  함수는 &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Glossary/URI&quot;&gt;URI&lt;/a&gt;의 특정한 문자를 UTF-8로 인코딩해 하나, 둘, 셋, 혹은 네 개의 연속된 이스케이프 문자로 나타낸다. &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; uri &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;https://mozilla.org/?x=шеллы&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; encoded &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;encodeURI&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;uri&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -288,7 +323,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 트위터나 링크드인 같은 플랫폼을 보면 포스트 제목 옆에 _1 day ago, 12분 전_ .. 등 상대적으로 과거의 시간을 나타낸다.
 &lt;p align=&quot;center&quot;&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/f81d0ac35046885ac7b829693aab7081/afd7b/twitter.webp&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 49.36708860759494%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABQAwCdASoUAAoAPtFUo0uoJKMhsAgBABoJaQAAXe+EEKd6gAD+9tJceS7QWbVGcPuJ8BtkwTmkB+bKoupplN8xLtWY71O7cUAAAA==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 49.36708860759494%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAAoAPtFUo0uoJKMhsAgBABoJaQDMHCKUoDanMNKAAP720m9fbGVgNCWEwyMt6Mh+8vjiiTLE9c/v2dYSATOISAzkAA==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;twitter-capture&quot; title=&quot;twitter-capture&quot; src=&quot;/static/f81d0ac35046885ac7b829693aab7081/8aab1/twitter.webp&quot; srcset=&quot;/static/f81d0ac35046885ac7b829693aab7081/81b7c/twitter.webp 158w,
 /static/f81d0ac35046885ac7b829693aab7081/6ea66/twitter.webp 315w,
 /static/f81d0ac35046885ac7b829693aab7081/8aab1/twitter.webp 630w,
@@ -379,7 +414,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 78.48101265822784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoUABAAPtFWpkuoJKOhsAgBABoJbACdMoRwACnHy7vIYIcAAOIgBkvB2XF2xTwUfM+2/DDJzYe4H+q9MOhKq+v/wrXBriOy3h+MlWMBENJi4vNheSY9tl/QP2uuukXmF7C3KbL3J6U4qpgAAAA=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 78.48101265822784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoUABAAPtFWpkuoJKOhsAgBABoJbACdMoR3ACnHy9Jn3JMAAOIgBkvB2XF2xTwUfH4Pj3z1urfqf+q7mbJw0z//Ctcw+msMnHI3qIsdwC1OFwuK2NAogSKK8oiUUQJNVlSPJWjviClaIwcAAAA=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -435,7 +470,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAwCdASoUAAgAPtFWo0uoJKMhsAgBABoJZgCdMoR3ACWb/C7WgLtIAPwF+Fg/TcI5qYZ8uAOPyukCP3cx+mB02iZ/7Of/JUu9NbcNzcrHJHSVLFbmiH/acrGGHh+yurPvZRgA&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoUAAgAPtFUpEuoJKOhsAgBABoJZgCdMoR3ACWb/C7WgLtIAPwF+Fg/TcI5qYZ8uAOP0o4fzlCOYfpgdNomf+zn/yVLvTW3Dc3KxyR0lSxW5oh/2nHQgw8P2V1Z97KMAAA=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -470,7 +505,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBACdASoUAAgAPtFYpEwoJSOiMAgBABoJZgCdLwJ6AAYSDIMYbZC6YADiH/4LUMVKvx9jBZ+6/tkt09Geh/44mvRjn9wWNs8Ts4cuY6k0aUp1etbreDy0daAAAA==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBACdASoUAAgAPtFWpUwoJKOiMAgBABoJZgCdLwJ6AAYSDfuFeWkzgADiH/4LUMVKvx9jBYerP8DhCbXBQf/HE16Mc/uCxtnidnDlzHU9gdCNyF+FjRq/5cAAAA==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -508,7 +543,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACwBACdASoUAAgAPtFWpUwoJKOiMAgBABoJbACdMoRwN4BvAAEy/DpwcC7gSDAAANuVdt+1+/RLEhoQSloNy+T43dRYqA//jFOEoeJhs46XeNI10K+GAKF6F+0HiWtqsQA3mcucTo2lm/otqT1t7vwnAAA=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQBACdASoUAAgAPtFUo0uoJKMhsAgBABoJbACdMoRwN4B+JPCAASxd1odgAxEwAADblXbfyirHqD0FtNP67WHor+SBi/xQVn/ximqpyoJcsT6UZv2L0Gw/RDex37URKfxxyG8/cyQ+aVjb6RWXuAAA&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -543,7 +578,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwAwCdASoUAAgAPtFUo0uoJKMhsAgBABoJQBOgBDwpa4tl5gAA/uswT8/AQYV+cocpVZI5iLq0mkXnqqnmrgxNXQHnCJeuh9l8QID1NEJAAA==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwAwCdASoUAAgAPtFUo0uoJKMhsAgBABoJQBOgBDwpa4tl5gAA/uswT8/AQYVayW2HF7oU6JKvV5lXLM4IXsP20J6PXeR+F9rXAYzw7+AAAA==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -583,7 +618,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQBACdASoUAAgAPtFWo0uoJKMhsAgBABoJZACdLwFx/2VUBiPSmlbA+/EAAP7WKKek6sz8n15yuNQBErO9Fh6fG3oJ/oTrhz7wbU1q9cB63d7lwB4Dp9fWS15wDMtRvXAAAA==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQBACdASoUAAgAPtFWo0uoJKMhsAgBABoJZACdLwFx/2VUBiPOkw5ocWwAAP7WKKemcmwKtAKGO19gfkuHlNRKgLjCd32d70Yw5vPAGPxgfRE8u051kgWhlsVuGSVC6MAAAA==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -635,7 +670,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 41.139240506329116%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwBACdASoUAAgAPtFWpEwoJKOiMAgBABoJagCdMoRwGQAAZnLIXeDa4AAA/prrK1fYW1T2WpEZxmuO4l0upQk9/wFCntlB/sH5bnTYK3mPcuKJ+zHixfyGALahscslcs6hBQdtXHYAAA==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 41.139240506329116%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwBACdASoUAAgAPtFUpEuoJKOhsAgBABoJagCdMoRwGQAAZnLaWC6iigAA/prrK1fYW1T2WpEZxmumcZUkAOZDcrP+AoU9soP9g/Lc6bBW8x7lxRP2avac5A/Ge6y7LStzKumowcAS8QAA&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -669,7 +704,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 37.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQBACdASoUAAgALplotFoiqCgoCACYS0AE6ZQjubyX8VQFqm/E+Q/nAAD+YBPWGOkgpm+TbnlMEn/m2oJag4qD/5y8timnebj4ZFNIIUidPVFY2oli4AAA&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 37.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAgCdASoUAAgAAsBMJaACdMoRwN6B+KoCRnfIJywkUAD+YBPWF+ZtIKNCwNzj84/+baglqDZav/nKwimnebj4ZFLegf6E3DlF62LIY6wZQAAA&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -720,7 +755,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 117.72151898734178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADQBACdASoUABgAPtFYpEyoJSOiKA1RABoJaAC7M47Boq7jkNNX/5w3+pbivv+xAAD+sz63A8qKfpVftcgdM0XJsp9eLl/cIs5YXpP/kKoe/Digz9msjT/66D7uIiE/xibhWCAuVmso1lK5kmF96o9DgohRBzSBVkKkoNn2dvBrqAYbJStNPgOPHIus+S3VEoD00YCMEAA=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 117.72151898734178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAACwBACdASoUABgAPtFYpE0oJSOiKA1RABoJaAC1G47Boq7X0M751DCQnoNsUkoAAP6zPrcD/k+PI02mcop3A7rzoeL0rk2izAN7//yFUPfhxQZ+zWRp/9dB93ERCf4xNwrBAXKuYlZ0uxjjVsyQmnY1BhIjqAcxCB8+Ha98u6LEAEKBo7vAV5RiqpUjtUHgWsInkMAA&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -771,7 +806,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 118.35443037974682%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAAAwBQCdASoUABgAPtFaqE4oJKQiKAqpABoJbACdL0N6r+KoAkcX6edoFFZ9TLCpJ8OIAAD+szybexDecZbQjadsKEoX+tXycAnF1WVJcIYx8W7qG6mBMX+Canwmbgm+r+RwL/+QqjCMXY/XRa1z+KZVCP2hmrV6xj+BhuO8ZmPXVp4NL9bTzjOZot6ZGayX49tJM/Ejn9oDGJZaCSicpiXSMNEBG4ylKqUSbAD+SKBP1OHbUD/DifBQdpn771P1+AAAAA==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 118.35443037974682%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAACQBQCdASoUABgAPtFaqE4oJKOiKAqpABoJbACsMzQ156r+KoAkcX6eK9uNR6h5qKzmRilSAAD+szybexDecZbQjadsKEoX+tXycAnF1WVJcIYx8WPeNbNILHeogmgzoGeKWtq3P/yFUYRhviKQcUIRVB7Wf5PQgcDeA4plGn+lYJ2Pln6WBTBdIBPqf6DqODJZPIWdk1O7jO42o93zTxv86pI58ogMI+OSfRQN0AxWgGLXYVyQ682SYYF4pHefQG0AAA==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -813,7 +848,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 41.139240506329116%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQBACdASoUAAgAPtFUo0uoJKMhsAgBABoJaACdMoRwACWZ6EjUtkCtwAD+6xEQfuTNR25FAdgqoTjQ/+YLEBS863YNBorD5bPGj1I59qXfrp/WQp3mNDGfycyfHceYoAA=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 41.139240506329116%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQBACdASoUAAgAPtFWo0uoJKMhsAgBABoJaACdMoRwACWZ6EjUtkW70AD+6xEQfuTNR25FAdgqoTjQ/+YLEBS863YNBorD5bPGj1I58ZcE7wInw6viQ3N/6oHv8GqYAAA=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1262,7 +1297,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p align=&quot;center&quot;&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/e4c02aa2be2af7d1f37ed142ce32d2fa/b6d17/mime-texthtml.webp&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 66.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoUAA0APtFUo0uoJKMhsAgBABoJZ12AWUETjbAf4IQAAP7vCO8CTG56qGhmrcAcIIAkPeJm8UgypNRnmhECqrwwF/SGeEAA&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 66.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoUAA0APtFUo0uoJKMhsAgBABoJZ12AWUETjbA68CMAAP7vCO8CTG56qGhmrcAcIIAkPeJm03DUNxn0mn32iqbJVNy+kM8IAAA=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;browser-request-html-file&quot; title=&quot;browser-request-html-file&quot; src=&quot;/static/e4c02aa2be2af7d1f37ed142ce32d2fa/8aab1/mime-texthtml.webp&quot; srcset=&quot;/static/e4c02aa2be2af7d1f37ed142ce32d2fa/81b7c/mime-texthtml.webp 158w,
 /static/e4c02aa2be2af7d1f37ed142ce32d2fa/6ea66/mime-texthtml.webp 315w,
 /static/e4c02aa2be2af7d1f37ed142ce32d2fa/8aab1/mime-texthtml.webp 630w,
@@ -1299,7 +1334,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p align=&quot;center&quot;&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/fab6b66371f9722e0c637ba0d8452ebe/15a27/node-elem.webp&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 37.34177215189873%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAgCdASoUAAcAPtFUpEuoJKOhsAgBABoJaQAAe/QAAP7wJXbngUoaH3zF9gtVgAA=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 37.34177215189873%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAgCdASoUAAcAPtFUo0uoJKMhsAgBABoJaQAAe/QAAP7wJXbngUoZJZSeWS8AAAA=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;ul-node-inherits-classes&quot; title=&quot;ul-node-inherits-classes&quot; src=&quot;/static/fab6b66371f9722e0c637ba0d8452ebe/8aab1/node-elem.webp&quot; srcset=&quot;/static/fab6b66371f9722e0c637ba0d8452ebe/81b7c/node-elem.webp 158w,
 /static/fab6b66371f9722e0c637ba0d8452ebe/6ea66/node-elem.webp 315w,
 /static/fab6b66371f9722e0c637ba0d8452ebe/8aab1/node-elem.webp 630w,
@@ -1592,7 +1627,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p&gt;위 함수의 시간 복잡도는 O(2^n)이다. 하지만 공간 복잡도는 같지 않다. 콜 스택에 쌓이는 함수는 4단계의 depth를 가지고 있으며 여기서 스택이 클리어되고 쌓이기를 반복하고 더 이상 늘어나지 않는다. 즉 O(4) ⇒ O(1)의 복잡도를 지닌다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CORS란? 그리고 이를 해결하는 방법은?]]></title><description><![CDATA[CORS는 Cross—Origin Resource Sharing(교차 출처 리소스 공유)의 약자이다. 브라우저는 보안상의 이유로 웹 애플리케이션이 리소스를 요청할 때 자신의 출처와 동일한 출처의 리소스만 허락한다.  즉, https://www…]]></description><link>https://gatsbyglass.netlify.app/blog/what-is-cors/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/what-is-cors/</guid><pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;CORS는 Cross—Origin Resource Sharing(교차 출처 리소스 공유)의 약자이다. 브라우저는 보안상의 이유로 웹 애플리케이션이 리소스를 요청할 때 자신의 출처와 동일한 출처의 리소스만 허락한다. &lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/d99cff176172dfde6fc1c19dc02a0883/99968/cors_overview.webp&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 31.0126582278481%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACQAwCdASoUAAYAPtFWo0uoJKMhsAgBABoJYgCdACFplPjR0+ZgAP4nn8AkL7vq0BJJlxpd73ix/qCVO01I/NljVuBH5k5KT9FvrF9pSvccrL1u0VBPD36XM83ZcJLyDQLiAAAA&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 31.0126582278481%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQAwCdASoUAAYAPtFUo0uoJKMhsAgBABoJYgCdMoADQtr5PxErvEAA/iefwCQvu+rQEkmXGl3veLH+oJU7TUj82WuvPAbeVB65plOl7h/2V0e7W7RUE8PXouMPkoizJKPNlgAA&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;CORS의 원리&quot; title=&quot;CORS의 원리&quot; src=&quot;/static/d99cff176172dfde6fc1c19dc02a0883/8aab1/cors_overview.webp&quot; srcset=&quot;/static/d99cff176172dfde6fc1c19dc02a0883/81b7c/cors_overview.webp 158w,
 /static/d99cff176172dfde6fc1c19dc02a0883/6ea66/cors_overview.webp 315w,
 /static/d99cff176172dfde6fc1c19dc02a0883/8aab1/cors_overview.webp 630w,
@@ -1725,7 +1760,7 @@ Content-Type: text/plain
 [Some XML payload]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p align=&quot;center&quot;&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/26be1d707cb15727951f38d12977426f/2bef9/preflight_correct.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 105.0632911392405%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABcElEQVQ4y5WTWZKDMAxEff9jZqlsVQHM5kCAeVYTApMMxfSHEUatpSXcbrfb7/dlWQ7D0Pf9sAGXy+VwOJzPZ9e2bdM0G2lC13ViOWi8/Prcr+L5fFZVhZvL8xxLZ1EUGCEEPnczTK8YkPE5Ho+RfL1eadh7z1WWZRicaZo+DPL+Wjn3Dj9lLg0xtQGjrmtdEqU2YIisoO50Ov1LrUXm+/3OtIiqloR5tzihLUJwPkJAZPJrQA4PmPPkOKnIYMCQkPnrJB/3UbD5qDAISZMoJuVkoEs0k0RRkiQh4kimtnG8Rm4NXGoTIEQhjUeg+PT+Tf5ckq2CUX1jAkgPzm4VMEm+WBK6ohNvIJzKUfGffO7H9YQmcvoSiSi5bUiwwayVfbvdpNm0wxJsvedxw+JgsmyLZvqlFmQsumdppg2Lys3QGPQbehsSgn1ZkqkfjUDMwkB1ucnJiShv8rQkf1VLOCRkKxMDIUa1ty+JepbO6vkHRfbQICR6jDAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 105.0632911392405%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABd0lEQVQ4y5WU25KCMBBE+f+/9EqpVQRBDJcAezLNoqtosf2QiiE9M90zMdlut7vdrqqqcRyHYRhX4Hw+7/f70+mUdF3Xtu1KmtD3vVgJNH68fB6+IoRwv9+5lpRlyU7rzdA0DZ/7RYQAh8uHwyGSEQDter1yxFoUBWue542BKIuKiMN5wj2vzFXErZxACd57O6uI4g1sRFbQJE3Tf7n1J7NzbrPZENUUhRe1yoC3XGAlMybXda0GRbf58JxcV0H9CyRIieRkWcZhNOy5VWwIicjoXxGBdaz4Ihcr41MsoSdysAbE9hq5M3CoSZBn6qIyE/dBfh+StYZF9WZD9KOuydhbuE+ASfLHkFAVelCCPEoinMpR8e98zqfxjDZAdi43bzDGZRna5DYVfSv7crnIM3VVgcF3zdOEqTErPZvHYSKzOx6PjM48YfMk6W20hvgMvZccvbzlVvFTLRBTHZ4fHOvykHwqlXDkZCqdAf7k9voh0d+IfJbmH/RS0FiJ/zOUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;프리플라이트 요청&quot; title=&quot;프리플라이트 요청&quot; src=&quot;/static/26be1d707cb15727951f38d12977426f/f058b/preflight_correct.png&quot; srcset=&quot;/static/26be1d707cb15727951f38d12977426f/c26ae/preflight_correct.png 158w,
 /static/26be1d707cb15727951f38d12977426f/6bdcf/preflight_correct.png 315w,
 /static/26be1d707cb15727951f38d12977426f/f058b/preflight_correct.png 630w,
@@ -4891,7 +4926,7 @@ https://cdnjs.com/libraries/semantic-ui…]]></description><link>https://gatsbyg
 &lt;p&gt;다시 말해두자. &lt;b&gt;글로벌 실행 문맥은 글로벌 영역에 있는 코드, 함수, 변수만을 실행한다.&lt;/b&gt; 그렇다면 로컬 영역에 있는 코드, 즉 함수 내에 있는 코드는 어떡할까? 간단하다. 함수를 실행할 때마다 새로운 실행 컨텍스트가 그 위에 만들어진다.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/8c84a87fe798be5c20b5247efcc1f5a9/46b1b/execution_context.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 70.25316455696203%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQT/2gAMAwEAAhADEAAAAXitrjzrJaHP/8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEQMS/9oACAEBAAEFAorvLfMeJtaFT//EABgRAQEAAwAAAAAAAAAAAAAAAAEAAiEx/9oACAEDAQE/AcEOy7v/xAAXEQADAQAAAAAAAAAAAAAAAAABAhAx/9oACAECAQE/AWYHJ//EAB0QAAECBwAAAAAAAAAAAAAAAAABAxAhMUFCgZH/2gAIAQEABj8CFm4ZbhVelz//xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUFhkf/aAAgBAQABPyEy9+T2xElbtF1LZ2xWhXcs/9oADAMBAAIAAwAAABC4/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8Q3YSkv//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxDAK//EABwQAQADAAIDAAAAAAAAAAAAAAEAETEhQVGRwf/aAAgBAQABPxBtOBTw9zglFsON6jExvnnCFFAR2jL0+RycXsT/2Q==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 70.25316455696203%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQT/2gAMAwEAAhADEAAAAXitrjzrJaHP/8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEQMS/9oACAEBAAEFAorvLfMeJtaFT//EABgRAQEAAwAAAAAAAAAAAAAAAAEAAhEx/9oACAEDAQE/AcEOym7/xAAXEQEAAwAAAAAAAAAAAAAAAAABAhAx/9oACAECAQE/AZI5X//EAB0QAAECBwAAAAAAAAAAAAAAAAABAxAhMUFCgZH/2gAIAQEABj8CFm4ZbhVelz//xAAbEAADAAIDAAAAAAAAAAAAAAAAARExQSFhkf/aAAgBAQABPyFZ34d2B2avIWFZ5RNJtvln/9oADAMBAAIAAwAAABC4/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8Q3YxJf//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxDEK//EABwQAQADAAIDAAAAAAAAAAAAAAEAETEhQVGRwf/aAAgBAQABPxBrXAp4e5wSi2HG9RCY3zzhCigI7Rl6fI5OL2J//9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;실행 컨텍스트&quot; title=&quot;실행 컨텍스트&quot; src=&quot;/static/8c84a87fe798be5c20b5247efcc1f5a9/828fb/execution_context.jpg&quot; srcset=&quot;/static/8c84a87fe798be5c20b5247efcc1f5a9/ff44c/execution_context.jpg 158w,
 /static/8c84a87fe798be5c20b5247efcc1f5a9/a6688/execution_context.jpg 315w,
 /static/8c84a87fe798be5c20b5247efcc1f5a9/828fb/execution_context.jpg 630w,

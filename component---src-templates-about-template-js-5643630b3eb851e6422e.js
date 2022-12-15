@@ -1,0 +1,1 @@
+(self.webpackChunkyonas_dev_log=self.webpackChunkyonas_dev_log||[]).push([[381],{1699:function(){}}]);
