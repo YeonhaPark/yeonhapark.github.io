@@ -1,9 +1,10 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-import Layout from '../components/layout';
-import PostList from '../components/post-list';
-import styled from 'styled-components';
-import StyledLink from '../components/styled-link';
+import React from "react";
+import { graphql } from "gatsby";
+import Helmet from "react-helmet";
+import Layout from "../components/layout";
+import PostList from "../components/post-list";
+import styled from "styled-components";
+import StyledLink from "../components/styled-link";
 
 const HomePage = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes;
@@ -17,7 +18,9 @@ const HomePage = ({ data }) => {
           __html: intro,
         }}
       />
-
+      <Helmet>
+        <script src="https://app.embed.im/snow.js" defer></script>
+      </Helmet>
       <PostList posts={posts} />
       <StyledLink
         css={`
