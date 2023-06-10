@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/react-table/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/improve-react-table-performance/"},"frontmatter":{"date":"June 10, 2023","description":"가상화 테크닉을 사용하여 과도한 렌더로 빚어지는 react-table의 성능을 개선하자","tags":["react","table","react-table","react-virtuoso","virtualization"],"title":"React Virtuoso를 사용하여 React-table 의 느린 성능 개선하기"},"timeToRead":2,"excerpt":"React Table은 Table을 그리는데 필요한 다양한 API와 무엇보다도 useRowSelect…"}]}},"pageContext":{"tag":"react-table"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

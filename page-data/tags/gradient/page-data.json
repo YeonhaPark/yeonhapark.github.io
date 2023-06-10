@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/gradient/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/css-gradients/"},"frontmatter":{"date":"February 25, 2022","description":null,"tags":["CSS","gradient"],"title":"CSS Gradients에 대해"},"timeToRead":6,"excerpt":"이 글은 Chris Coyier가 작성한 CSS Gradients에서 상당 내용을 참조했습니다 CSS의 gradient란 ? 두개 혹은 그 이상의 색상을 가지고 점진적으로 옅게 하거나 진하게 처리하여 이미지를 생성하는 것을 말한다. gradient…"}]}},"pageContext":{"tag":"gradient"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/gradient/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/css-gradients/"},"frontmatter":{"date":"February 25, 2022","description":null,"tags":["CSS","gradient"],"title":"CSS Gradients에 대해"},"timeToRead":6,"excerpt":"이 글은 Chris Coyier가 작성한 CSS Gradients에서 상당 내용을 참조했습니다 CSS의 gradient란 ? 두개 혹은 그 이상의 색상을 가지고 점진적으로 옅게 하거나 진하게 처리하여 이미지를 생성하는 것을 말한다. gradient…"}]}},"pageContext":{"tag":"gradient"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}

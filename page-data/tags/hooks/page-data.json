@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/hooks/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/delivering-toggle-effect-using-react-hooks/"},"frontmatter":{"date":"July 02, 2019","description":"클래스형 컴포넌트에서만 가능하던 state 기능을 Hooks를 이용하여 함수형 컴포넌트에서 구현할 수 있다.","tags":["react","hooks"],"title":"리액트 최신기능 Hooks를 이용하여 네비게이션 바 토글 기능 구현하기"},"timeToRead":1,"excerpt":"리액트 최신기능 Hooks를 이용하여 네비게이션 바 토글 기능 구현해보자! 기존에는 이벤트에 따라 버튼의 상태를 바꾸거나 메뉴바를 보였다가 사라지게 할 때 this.state를 이용해왔었다. 그러다가 이번에 React Hooks…"}]}},"pageContext":{"tag":"hooks"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}
+{
+    "componentChunkName": "component---src-templates-tags-template-js",
+    "path": "/tags/hooks/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/delivering-toggle-effect-using-react-hooks/"},"frontmatter":{"date":"July 02, 2019","description":"클래스형 컴포넌트에서만 가능하던 state 기능을 Hooks를 이용하여 함수형 컴포넌트에서 구현할 수 있다.","tags":["react","hooks"],"title":"리액트 최신기능 Hooks를 이용하여 네비게이션 바 토글 기능 구현하기"},"timeToRead":1,"excerpt":"리액트 최신기능 Hooks를 이용하여 네비게이션 바 토글 기능 구현해보자! 기존에는 이벤트에 따라 버튼의 상태를 바꾸거나 메뉴바를 보였다가 사라지게 할 때 this.state를 이용해왔었다. 그러다가 이번에 React Hooks…"}]}},"pageContext":{"tag":"hooks"}},
+    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
