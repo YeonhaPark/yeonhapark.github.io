@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import SEO from './SEO';
+import Seo from './SEO';
 import Header from './Header';
 import Footer from './footer';
 import Container from './container';
@@ -10,7 +10,7 @@ const Layout = ({ children, title, description }) => {
   return (
     <Fragment>
       <GlobalStyle />
-      <SEO title={title} />
+      <Seo title={title} />
       <LayoutWrapper>
         <Header />
         <main>
