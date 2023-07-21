@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
 import styled from 'styled-components';
 
-const MySocialLinks = ({site}) => {
+const MySocialLinks = ({data: {site}}) => {
 
   const socialLinks = site?.siteMetadata.socialLinks.map((link) => {
     return (

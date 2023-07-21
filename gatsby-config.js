@@ -19,8 +19,8 @@ module.exports = {
         url: 'https://github.com/YeonhaPark',
       },
       {
-        name: 'instagram',
-        url: 'https://instagram.com/yonapark/',
+        name: 'linkedin',
+        url: 'https://www.linkedin.com/in/yonapark/',
       },
     ],
   },

@@ -3,11 +3,12 @@ import Container from './container';
 import styled from 'styled-components';
 import SocialLinks from './SocialLinks';
 
-const Footer = () => {
+const Footer = (props) => {
+  console.log("footer")
   return (
     <StyledFooter>
       <FooterWrapper>
-        <SocialLinks />
+        <SocialLinks  {...props}  />
 
         <FooterAttribution>
           Hand-crafted with love by{' '}
