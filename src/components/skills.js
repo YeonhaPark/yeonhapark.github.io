@@ -5,7 +5,7 @@ const Skills = ({ title, skills }) => {
   return (
     <div>
       <h4>{title}</h4>
-      <Ul>{skills.map((skill) => <Li key={skill.id}>{skill.name}</Li>)}</Ul>
+      <Ul>{skills.map((skill, idx) => <Li key={idx}>{skill.name}</Li>)}</Ul>
     </div>
   );
 };
