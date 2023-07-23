@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tags-template-js",
-    "path": "/tags/redux/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/why-we-use-middleware-for-async-function-in-redux/"},"frontmatter":{"date":"September 22, 2019","description":"Redux에서 비동기 처리를 위해 미들웨어를 사용해야 하는 이유","tags":["react","redux"],"title":"React-redux) 리액트-리덕스에서 비동기 액션을 처리하는 방법"},"timeToRead":3,"excerpt":"비동기를 redux에서 사용하려면 redux-thunk등의 비동기 처리를 위한 미들웨어를 추가로 사용해주어야 한다. 코드를 예로 들면서 왜 비동기 처리가 redux 미들웨어를 필요로 하는지 차근차근 이해해 보자. API 호출하는 함수를 action…"}]}},"pageContext":{"tag":"redux"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/redux/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/why-we-use-middleware-for-async-function-in-redux/"},"frontmatter":{"date":"September 22, 2019","description":"Redux에서 비동기 처리를 위해 미들웨어를 사용해야 하는 이유","tags":["react","redux"],"title":"React-redux) 리액트-리덕스에서 비동기 액션을 처리하는 방법"},"timeToRead":3,"excerpt":"비동기를 redux에서 사용하려면 redux-thunk등의 비동기 처리를 위한 미들웨어를 추가로 사용해주어야 한다. 코드를 예로 들면서 왜 비동기 처리가 redux 미들웨어를 필요로 하는지 차근차근 이해해 보자. API 호출하는 함수를 action…"}]}},"pageContext":{"tag":"redux"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}

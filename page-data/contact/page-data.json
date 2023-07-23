@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-contact-template-js",
-    "path": "/contact/",
-    "result": {"data":{"markdownRemark":{"html":"<h1>Get in Touch.</h1>\n<p>저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.</p>","frontmatter":{"title":"Contact Me"}}},"pageContext":{"slug":"/contact/"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+{"componentChunkName":"component---src-templates-contact-template-js","path":"/contact/","result":{"data":{"markdownRemark":{"html":"<h1>Get in Touch.</h1>\n<p>저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.</p>","frontmatter":{"title":"Contact Me"}}},"pageContext":{"slug":"/contact/"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}

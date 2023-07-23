@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tags-template-js",
-    "path": "/tags/bash/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/zsh-bash-set-authority/"},"frontmatter":{"date":"July 21, 2021","description":null,"tags":["bash"],"title":"zsh, bash에서 파일의 권한 설정하는방법"},"timeToRead":1,"excerpt":"…"}]}},"pageContext":{"tag":"bash"}},
-    "staticQueryHashes": ["2555585279","2841359383","3159585216"]}
+{"componentChunkName":"component---src-templates-tags-template-js","path":"/tags/bash/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"nodes":[{"fields":{"slug":"/blog/zsh-bash-set-authority/"},"frontmatter":{"date":"July 21, 2021","description":null,"tags":["bash"],"title":"zsh, bash에서 파일의 권한 설정하는방법"},"timeToRead":1,"excerpt":"…"}]}},"pageContext":{"tag":"bash"}},"staticQueryHashes":["2555585279","2841359383","3159585216"]}

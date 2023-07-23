@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 10 Jun 2023 02:53:47 GMT</lastBuildDate><item><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Yonas Dev Log Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/</guid><content:encoded>&lt;h1&gt;Yonas Dev Log&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 23 Jul 2023 04:57:09 GMT</lastBuildDate><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. 저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.]]></description><link>https://gatsbyglass.netlify.app/contact/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
+&lt;p&gt;저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About Me]]></title><description><![CDATA[협업하는 개발자 박연하입니다]]></description><link>https://gatsbyglass.netlify.app/about/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/about/</guid><content:encoded>&lt;h1&gt;협업하는 개발자 박연하입니다&lt;/h1&gt;
+&lt;br&gt;
+서울에 사는 4년차 프론트엔드 개발자입니다
+&lt;br&gt;
+서비스 가치 실현을 위한 코드를 최우선하며,&lt;br&gt;
+더 나은 사회와 세상을 위해 쓰일 프로그램을 만들고 싶습니다</content:encoded></item><item><title><![CDATA[Yonas Dev Log]]></title><description><![CDATA[Yonas Dev Log Dev Journal & Frontend Study Log]]></description><link>https://gatsbyglass.netlify.app/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/</guid><content:encoded>&lt;h1&gt;Yonas Dev Log&lt;/h1&gt;
 &lt;p&gt;Dev Journal &amp;#x26; Frontend Study Log&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Resume]]></title><description><![CDATA[Career History Projects Academic Background]]></description><link>https://gatsbyglass.netlify.app/resume/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/resume/</guid><content:encoded>&lt;h2&gt;Career History&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3&gt;Cenaclesoft&lt;/h3&gt;
@@ -93,13 +99,100 @@
 &lt;h2&gt;Academic Background&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3&gt;서울시립대학교 도시과학대학&lt;/h3&gt;
-&lt;small&gt;&lt;b&gt;도시행정학과 (경영학부 복수전공) | 2010-03 - 2015-07&lt;/b&gt;&lt;/small&gt;</content:encoded></item><item><title><![CDATA[Contact Me]]></title><description><![CDATA[Get in Touch. 저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.]]></description><link>https://gatsbyglass.netlify.app/contact/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/contact/</guid><content:encoded>&lt;h1&gt;Get in Touch.&lt;/h1&gt;
-&lt;p&gt;저에 대한 질문이나 프로젝트 제안이 있으시면 yonaprisca@gmail.com으로 연락하시거나 오른쪽의 폼을 통해 연락주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About Me]]></title><description><![CDATA[협업하는 개발자 박연하입니다]]></description><link>https://gatsbyglass.netlify.app/about/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/about/</guid><content:encoded>&lt;h1&gt;협업하는 개발자 박연하입니다&lt;/h1&gt;
-&lt;br&gt;
-서울에 사는 4년차 프론트엔드 개발자입니다
-&lt;br&gt;
-서비스 가치 실현을 위한 코드를 최우선하며,&lt;br&gt;
-더 나은 사회와 세상을 위해 쓰일 프로그램을 만들고 싶습니다</content:encoded></item><item><title><![CDATA[React Virtuoso를 사용하여 React-table 의 느린 성능 개선하기]]></title><description><![CDATA[React Table은 Table을 그리는데 필요한 다양한 API와 무엇보다도 useRowSelect…]]></description><link>https://gatsbyglass.netlify.app/blog/improve-react-table-performance/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/improve-react-table-performance/</guid><pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;React Table은 Table을 그리는데 필요한 다양한 API와 무엇보다도 useRowSelect를 활용한 행 단위 데이터 선택 기능, 체크박스 기능 등을 제공하고 있어 테이블 상에서 이뤄지는 다양한 작업을 커버하기에 유용한 라이브러리이다.&lt;/p&gt;
+&lt;small&gt;&lt;b&gt;도시행정학과 (경영학부 복수전공) | 2010-03 - 2015-07&lt;/b&gt;&lt;/small&gt;</content:encoded></item><item><title><![CDATA[React Hook Form 렌더링 성능 최적화 하기]]></title><description><![CDATA[나는 다양한 종류의 input, select 태그를 포함한 form을 다루는 일을 하고 있고, 많은 개발자들이 그렇듯 react-hook-form 라이브러리를 아주 감사하면서 사용하고 있다. React-hook-form의 장점은 ref…]]></description><link>https://gatsbyglass.netlify.app/blog/optimizing-rendering-performance/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/optimizing-rendering-performance/</guid><pubDate>Mon, 17 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;나는 다양한 종류의 input, select 태그를 포함한 form을 다루는 일을 하고 있고, 많은 개발자들이 그렇듯 react-hook-form 라이브러리를 아주 감사하면서 사용하고 있다. React-hook-form의 장점은 ref 기반으로 작동하기 때문에 매번 리렌더링을 야기하지 않아 준수한 성능과 매끄러운 사용자 경험을 제공할 수 있다는 것이다. 안타깝게도 input A 와 input B 의 입력이 발생할 때마다 A x B 의 결과 C를 input C에 넣어줘야 한다면 ref만으로는 이들을 트래킹 할 수 없고 감시를 하거나 onChange가 발생할 때마다 로직을 수행해 주어야 한다. (이하로는 input, select, textarea 등 태그들을 input 요소로 통칭하겠다)&lt;/p&gt;
+&lt;p&gt;watch API는 특정 name에 해당하는 요소를 인터렉션이 일어나는 때마다 감시하며, 리액트 유저는 이 요소들을 useEffect에 dependencies로 의존성을 줘서 사용자 입력에 따라 반응하여 정보를 업데이트하고 리렌더를 촉발시킨다. 문제는 이 watch가 어떤 input 요소이건 간에 변화가 발생하면 해당 watch가 쓰이고 있는 form의 영역의 모든 아이템에 대해 re-render를 한다는 점이다;. 한 화면에 수십개의 input text, checkbox가 있다면,, 사용자가 인풋 란에 타자를 칠 때마다 수십개의 인풋 요소들이 리렌더링이 된다면 굳이 개발자도구를 켜고 성능을 측정하지 않아도 이미 애플리케이션의 반응 속도는 충분히 느리다는 것을 서글프게 깨달을 수 있을 것이다. (일반적으로 하나의 키보드 입력 이벤트에 50ms 이상이 소요된다면 객관적으로 이를 느리다고 판단할 수 있다.) &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://react-hook-form.com/docs/useform/watch&quot;&gt;watch API&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;대안은 useWatch&lt;/h3&gt;
+&lt;p&gt;만약 당신의 서비스가 한 페이지에 수십개 이상의 input 요소들을 포함하고 있다면 useWatch를 사용하여 골치아픈 리렌더링 문제를 축소할 수 있다. useWatch와 watch는 동작하는 기능은 동일하다. 다만 useWatch는 컴포넌트 단위로 리렌더링을 촉발시키기 때문에 전체 Form이 리렌더링되는 현상에 따른 성능 개선 효과를 크게 볼 수 있다. 조금 달라지는 syntax는 아래를 참고하길 바란다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; firstName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;watch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;firstName&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;strawberry&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; banana&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; apple&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;watch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;strawberry&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;banana&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;apple&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; firstName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useWatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;firstName&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;strawberry&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; banana&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; apple&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useWatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;strawberry&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;banana&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;apple&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;watch 사용시, 아래처럼 form에 해당되는 영역이 모두 리렌더되며 하이라이트 되지만, useWatch를 사용하게 되면 useWatch가 사용되고 있는 일부 컴포넌트에 한해 리렌더가 발생한다. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/95d70f64b9b33e322c126a6af4344206/21cdd/before.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 103.16455696202532%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC/UlEQVQ4y5WTS3PaZhSG9QfbaZZd9I+00126aLvJNKvMdNIxiIslISHEXaA7xMZgsN1p0jpxcMHUsQMG40u7ejoSdGq7NYkXz7w65zvzfnP0nSMkZAtRsUiqDmLGZl33SGTsKJfSXJKaE8WhxmWLtfUaomJTstuUnTYVt0PZ6WAGXSTNRVAMH9Pu4AQ72H6PSr0dfYe5fHkDt7GL5fWou12yhQY/rhVR9ID+8Ijf3rzmcDjg4LDP5HxK2e4gqEZAo7mHWdvCcbp4fi9SP9ihUm3h+ztY9jaev4Pn9SLNF5qkJRsl4yEp7hKHsFtBynrkCk0ymoeiuuj5JmrWR9X9SDXdj/LaMtaNAEmxiSWqxG+SNBeGcj4gV29h1FqolRc8S1YRVZt4xia+1NuxhajZJLPObfTF/xbUYhMr6FEwN0llLNZSVUTZIqGsQP4fwrxqh4YNakGPotVCKzfJFBpIxuKlw4KP4katoJaa1Bo9Sk6bnLmJYW4SXhIVhCMTojofNtWcaPSElOogZ13WVZtYqkosaRJPm4jpGmI4c0tNSnUSq5DrUdtCWnPJ6D6S6qLmAjI5HyV80VyAkvXQjIUmJYukvJqEYiNIOZ+Ku02uskHJ2qJYb6EVm5Ea1U0KtVZ09jxR4adUdSXhdgl5s8Xeq7d09/bZffmWX/YHvHw9iPQfwvjXg6P7eTNkvz9CL79AqHldTk/GHB4OGY3ecXZ2zmRyztkdJpPZ/YxnzKbzqJuF4fsJ/f6Q4+NTZrMLptM50+nFA5gzn18tDMOF/n1wzMHBkH5/xHB48mAGwxNGf7zHqGwgWH6PyXjC8egdR4MR49Mx15fXXF1cfTSX8yv+uv6TUn1rscsFdxvDapMPsTsUnW0KD6TodknnPAQlVqH2OIX5TfpfovgGj1P/zd0h9JDFKoL5NMvlJ98ye/Q9558tebRkGU+/+IHZ509un93h8tPvKD/LI+Sel/j5yxi7X8Xv52txwYqa0ENfKyOEuxqTrdVIdWKS9cE6MVXjb5ISTHUfCsKUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;watch 사용 시&quot;
+        title=&quot;watch 사용 시&quot;
+        src=&quot;/static/95d70f64b9b33e322c126a6af4344206/f058b/before.png&quot;
+        srcset=&quot;/static/95d70f64b9b33e322c126a6af4344206/c26ae/before.png 158w,
+/static/95d70f64b9b33e322c126a6af4344206/6bdcf/before.png 315w,
+/static/95d70f64b9b33e322c126a6af4344206/f058b/before.png 630w,
+/static/95d70f64b9b33e322c126a6af4344206/40601/before.png 945w,
+/static/95d70f64b9b33e322c126a6af4344206/78612/before.png 1260w,
+/static/95d70f64b9b33e322c126a6af4344206/21cdd/before.png 1680w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0a210f7ce2daa272390372c851c35ec5/9eaa0/after.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 103.16455696202532%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC60lEQVQ4y53UW3PaRhgG4P19mWly14v+k07s3LbNTZPLHjIdgxAInbCNOOmwEpLAgIMPmRwmPsRBJiBj7MYGm+Tm7eyGOm5SGDsXz3wSL/vtMrsLSUs2JJlCVl1e9ZyPrEyRyTpQNI/LKiz3wL4riCbPbNqGQ5+Cem04bhvVYBuS4oKwRg5to+pvcaa1Dj/YBnU3UCiuIQi34VU34XobWDVq+GupCC0XYG+/gxcvX2H/zQF2dvcwOD7GilEHUTUPYe0ZKmaLD/L9LbjuBvxgC+VKk9frE7IJ8kYdaYlC0XxkFY+TZBeCaIFICoW+GkLWPWQ1D+qyD0Wv8ndWlVwVkupefcbyjEKRTJtfSaUtkOyKD8NuIm82kKs08IdYREp1IKgUguJwqX+f1c/voub+R0p3IaoURDVC2MEmClYDad1FQrIgyA5SCr0VtoCrhhV/A0XawkplDXqxBsUI+CpS2s0JGlv1tKEVbqJEW8iValgu16Hk/a8bqvNdNRQlGxmVIqM4SKRNJEQTyYzFCdLnKmZtpGa4yjI2SEZ1oa0GfAf1fMif1RUfuXzId3TZqPH6aaAzU4qRWEPNhem1YVSaKDvrKDnrWC7WULRbMMwml680sMSOhmTxTZuFTUrY4d3Z7eD5iz283ungbRSjE8V427kminHYHczV6w/5gSfsqvV6AxwcdBFFfcTxCfrxkNfr+v3hXIPBKYxCHYRdq+HwFFH0DkdHxzg/v8DZ2fhW3p+NMB5folhqgJTNFjqdHnZ3O9h/c4goitHtDm7lsHs0/ck1EPZH8PfwFPG7GP1uDyeDE0zGE1yOLm/sYnSBj5MPKJWbIKJCoZQbkEtrU/VvtMaPD9F+zyO8n0CwKCBYTE7rFx5MLQoz83AhCfVJAcR+KGNy5yeM7j3E6O4n4y+c/fAI59//ivF3v/xvzsZO7vyM8mMdJPdbHk9/TKC1kETr/gwsWxDm5qyH9mcBhN3VJdnBUvYG5PmZkLHwD+KsSpXm6KtAAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;useWatch 사용 시&quot;
+        title=&quot;useWatch 사용 시&quot;
+        src=&quot;/static/0a210f7ce2daa272390372c851c35ec5/f058b/after.png&quot;
+        srcset=&quot;/static/0a210f7ce2daa272390372c851c35ec5/c26ae/after.png 158w,
+/static/0a210f7ce2daa272390372c851c35ec5/6bdcf/after.png 315w,
+/static/0a210f7ce2daa272390372c851c35ec5/f058b/after.png 630w,
+/static/0a210f7ce2daa272390372c851c35ec5/40601/after.png 945w,
+/static/0a210f7ce2daa272390372c851c35ec5/78612/after.png 1260w,
+/static/0a210f7ce2daa272390372c851c35ec5/9eaa0/after.png 1676w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codesandbox.io/s/react-hook-form-performance-improvement-rhz425?file=/src/PersonalInfo.js&quot;&gt;CodeSandbox&lt;/a&gt; 에서 확인하기&lt;/p&gt;
+&lt;p&gt;While several teammates are working on the same page and components, watch API provided easier way to track and trigger inputs. However, watch triggers the entire inputs sharing same FormProvider.
+Our page wasn’t atomic and some input components were made with some unrecognizable name and unused props, mostly added by each developer fixing bug or added small functions week by week.&lt;/p&gt;
+&lt;h3&gt;onChange Callback&lt;/h3&gt;
+&lt;p&gt;성능을 개선하기 위해 useWatch만 방법이 있는게 아니다. useWatch는 컴포넌트 레벨에서 리렌더링이 이뤄진다는 점만 watch와 다를 뿐, 유효 범위의 모든 input 요소들에 대해 리렌더링을 촉발시킨다는 것은 동일하다. 사실 제일 바람직한 것은 사용자의 인터렉션이 일어나는 input 요소에 한해서만 리렌더링이 발생하거나, 아예 리렌더링을 발생시키지 않는 것이다. &lt;a href=&quot;https://react-hook-form.com/docs/useform/register&quot;&gt;register&lt;/a&gt; API에서 제공하는 onChange 콜백 함수는 change 이벤트를 구독할 수 있게 하는 기능인데 이를 이용하면 렌더링을 야기하지 않으면서 setValue를 통해 다른 인풋 요소에도 값을 부여할 수 있다. &lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;video width=&quot;600&quot; height=&quot;560&quot; controls&gt;
+  &lt;source src=&quot;/8ffb471fd8a7309929d4ba35360a13dd/norender.mov&quot; type=&quot;video/mp4&quot;&gt;
+&lt;/video&gt;
+&lt;figcaption align=&quot;center&quot;&gt;
+&lt;small&gt;select요소의 change 이벤트에도 렌더되지 않는다.&lt;/small&gt;
+&lt;/div&gt;
+&lt;/figcaption&gt;
+&lt;p&gt;결과적으로 불필요한 watch는 모두 register API의 onChange 콜백 혹은 Controller 상의 onChange로 동작하도록 리팩토링하고, 여러 디펜던시를 이용하여 복잡한 컴포넌트 제어를 해야해서 불가피하게 watch를 사용해야 하는 곳은 useWatch로 바꿈으로서 인터렉션 성능의 50% 넘게 최적화를 달성할 수 있었다. 늘 시간 없이 개발하는 것도 사실이지만, 내 서비스를 사용하는 유저는 그걸 감안해주지 않는다. 코드를 작성할 때 내가 사용하는 함수가 혹은 어떤 라이브러리의 API가 적어도 어떤 방식으로 동작하는지 숙지하고 사용해야겠다. &lt;/p&gt;
+&lt;p&gt;References
+&lt;br /&gt;
+&lt;a href=&quot;https://react-hook-form.com/docs/useform/watch&quot;&gt;React Hook Form&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://web.dev/optimize-long-tasks/?utm_source=devtools&quot;&gt;Optimize Long Tasks&lt;/a&gt;  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Virtuoso를 사용하여 React-table 의 느린 성능 개선하기]]></title><description><![CDATA[React Table은 Table을 그리는데 필요한 다양한 API와 무엇보다도 useRowSelect…]]></description><link>https://gatsbyglass.netlify.app/blog/improve-react-table-performance/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/improve-react-table-performance/</guid><pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;React Table은 Table을 그리는데 필요한 다양한 API와 무엇보다도 useRowSelect를 활용한 행 단위 데이터 선택 기능, 체크박스 기능 등을 제공하고 있어 테이블 상에서 이뤄지는 다양한 작업을 커버하기에 유용한 라이브러리이다.&lt;/p&gt;
 &lt;p&gt;하지만 업무에서 React Table을 사용하다 보니 단점을 경험하게 되었다. 업무에서는 fetch한 데이터를 다양한 방식으로 가공하여 React Table로 렌더하고, 렌더된 DOM 상에서 사용자가 인터렉션할 수 있도록 여러 기능을 제공하고 있다. 하지만 하나의 테이블에 워낙 많은 기능이 들어가다 보니 일반 사용자가 느끼기에도 현저하게 성능이 저하되는 문제가 발생하였다. 지금 개발중인 프로덕트는 infinite scrolling 방식으로 동작하는데, 첫번째 로드 시 50개 리스트를 불러오고, concat으로 추가 fetch 요청이 발생할 때마다 50개씩 리스트를 덧붙이면서 리스트의 숫자가 매번 fetch가 일어날 때마다 배로 늘어나고, 로드되는 속도는 리스트의 갯수에 비례하여 현저히 느려졌다.&lt;/p&gt;
 &lt;p&gt;이런 성능 저하에 기여한 요인 중에 상당한 부분이 React Table의 렌더링 방식인데, 사용자가 하나의 셀만 클릭하더라도 테이블을 구성하는 모든 행이 다시 렌더된다. React Table 측에서는 이를 개선해야할 점이라기 보다는 모든 셀을 최신 상태로 유지하기 위해 라이브러리가 선택한 메커니즘으로 설명하고 있다.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/TanStack/table/issues/1496&quot;&gt;https://github.com/TanStack/table/issues/1496&lt;/a&gt;&lt;/p&gt;
@@ -393,7 +486,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 트위터나 링크드인 같은 플랫폼을 보면 포스트 제목 옆에 _1 day ago, 12분 전_ .. 등 상대적으로 과거의 시간을 나타낸다.
 &lt;p align=&quot;center&quot;&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/f81d0ac35046885ac7b829693aab7081/afd7b/twitter.webp&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 49.36708860759494%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAAoAPtFUo0uoJKMhsAgBABoJaQDMHCKUoDanMNKAAP720m9fbGVgNCWEwyMt6Mh+8vjiiTLE9c/v2dYSATOISAzkAA==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 49.36708860759494%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAAoAPtFUo0uoJKMhsAgBABoJaQAAXgw9kzI/YwiGwAD+9p8X9fjr4AY120OxSaNdGDAWn0NLH2obDTD4GxVnFzyKAAAA&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;twitter-capture&quot; title=&quot;twitter-capture&quot; src=&quot;/static/f81d0ac35046885ac7b829693aab7081/8aab1/twitter.webp&quot; srcset=&quot;/static/f81d0ac35046885ac7b829693aab7081/81b7c/twitter.webp 158w,
 /static/f81d0ac35046885ac7b829693aab7081/6ea66/twitter.webp 315w,
 /static/f81d0ac35046885ac7b829693aab7081/8aab1/twitter.webp 630w,
@@ -484,7 +577,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 78.48101265822784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoUABAAPtFWpkuoJKOhsAgBABoJbACdMoR3ACnHy9Jn3JMAAOIgBkvB2XF2xTwUfH4Pj3z1urfqf+q7mbJw0z//Ctcw+msMnHI3qIsdwC1OFwuK2NAogSKK8oiUUQJNVlSPJWjviClaIwcAAAA=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 78.48101265822784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBACdASoUABAAPtFYpEuoJSOhsAgBABoJbACdMoR3ACnUEQPfcN1kYAD5SwyxPAPuCrzA17Jg4/3Boj/EdiDZOGnYv/wwy4Nc2I5zZIa2YdKx9GAuRLU1sR+1Zix6CxigCuNbRTaba7D6KAzFvlb8AAA=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -540,7 +633,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoUAAgAPtFUpEuoJKOhsAgBABoJZgCdMoR3ACWb/C7WgLtIAPwF+Fg/TcI5qYZ8uAOP0o4fzlCOYfpgdNomf+zn/yVLvTW3Dc3KxyR0lSxW5oh/2nHQgw8P2V1Z97KMAAA=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAwCdASoUAAgAPtFUo0uoJKMhsAgBABoJaACdMoRwACWcT7PiXhUAAPuuOd87m7Y5GYmN02QVSdva7ljv/ZZXiVGCosP/kqXemtuG5uUuR9wUmAqOxCXCxCVNrBu9bhAuCWvCVDzCAAAA&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -575,7 +668,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBACdASoUAAgAPtFWpUwoJKOiMAgBABoJZgCdLwJ6AAYSDfuFeWkzgADiH/4LUMVKvx9jBYerP8DhCbXBQf/HE16Mc/uCxtnidnDlzHU9gdCNyF+FjRq/5cAAAA==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoUAAgAPtFWpEuoJKOhsAgBABoJZgCdMoR3ACWb/xVDcCkkAADiHi6n+f57FlihCPkYYPT/En+W/1sJx3G73/xxVqadDT5Lr1ktS3+3R18ubvAWHIyjTJx0D5lu3sFWAAA=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -613,7 +706,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQBACdASoUAAgAPtFUo0uoJKMhsAgBABoJbACdMoRwN4B+JPCAASxd1odgAxEwAADblXbfyirHqD0FtNP67WHor+SBi/xQVn/ximqpyoJcsT6UZv2L0Gw/RDex37URKfxxyG8/cyQ+aVjb6RWXuAAA&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQBACdASoUAAgAPtFWo0uoJKMhsAgBABoJbACdMoRwN4BvAAFS7rZcfz+YHdAA94ces3cstnYkUgC3F7vYNaj6B/+MVAv6ZS9BJ1xrvq+eRrFlkSObvoWzY7nd1L9Jj0bMXi5iyqFbM3oAAAA=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -648,7 +741,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwAwCdASoUAAgAPtFUo0uoJKMhsAgBABoJQBOgBDwpa4tl5gAA/uswT8/AQYVayW2HF7oU6JKvV5lXLM4IXsP20J6PXeR+F9rXAYzw7+AAAA==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoUAAgAPtFUo0uoJKMhsAgBABoJQBOmUABhciK97zwAAP7rME2Vi5kCwRGR8S3RlmGUTxeeqfuGDToOu8uIYR1Lt+9KIgAA&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -688,7 +781,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQBACdASoUAAgAPtFWo0uoJKMhsAgBABoJZACdLwFx/2VUBiPOkw5ocWwAAP7WKKemcmwKtAKGO19gfkuHlNRKgLjCd32d70Yw5vPAGPxgfRE8u051kgWhlsVuGSVC6MAAAA==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 39.87341772151899%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQBACdASoUAAgAPtFUpEuoJKOhsAgBABoJZACdMoRgCW/7QD/AAMR80zvXOxCpCAD+1iimlhu8EZgZ8cbZ7jiBw/WcnlllBRmn0ELBtGIThy8hMRkArsGFQZwBDmXaezHagAAA&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -740,7 +833,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 41.139240506329116%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwBACdASoUAAgAPtFUpEuoJKOhsAgBABoJagCdMoRwGQAAZnLaWC6iigAA/prrK1fYW1T2WpEZxmumcZUkAOZDcrP+AoU9soP9g/Lc6bBW8x7lxRP2avac5A/Ge6y7LStzKumowcAS8QAA&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 41.139240506329116%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQBACdASoUAAgAPtFUo0uoJKMhsAgBABoJagCdMoRwACxpB+yQMgT6wAD+mwOy9gvmPD8kkOV8f5XlwZd/8Cu2jVtjHd/ulh2Kp+ZtOBlZs303QOjkB6nxKOUiX8lAzubBjyHUOuuAAA==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -774,7 +867,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 37.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAgCdASoUAAgAAsBMJaACdMoRwN6B+KoCRnfIJywkUAD+YBPWF+ZtIKNCwNzj84/+baglqDZav/nKwimnebj4ZFLegf6E3DlF62LIY6wZQAAA&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 37.9746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwBACdASoUAAgAPtFWpUwoJKOiMAgBABoJaACdMoRwN6AAP0Aw3HGgAQAA/ey0mv3eSMHenA0sLP/wzgQrOCw/+JT/2XUhg1+HD4qOAUphcd1WtprjwzzMYdWF2LQgAAA=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -825,7 +918,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 117.72151898734178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAACwBACdASoUABgAPtFYpE0oJSOiKA1RABoJaAC1G47Boq7X0M751DCQnoNsUkoAAP6zPrcD/k+PI02mcop3A7rzoeL0rk2izAN7//yFUPfhxQZ+zWRp/9dB93ERCf4xNwrBAXKuYlZ0uxjjVsyQmnY1BhIjqAcxCB8+Ha98u6LEAEKBo7vAV5RiqpUjtUHgWsInkMAA&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 117.72151898734178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADwBACdASoUABgAPtFYpEyoJSOiKA1RABoJaAC1G1mEABbVKXoU9yOBYtHxM7c8mIAA/rM6RTWn6wxLqzhifmWHWiATJDXPVkWgLJhUzG//IVQ9+HFBn7Ar9/8Wq8iFRtXxoE22yOCykxq7WWp+ybA/CWe5YFZCStuwKy0+MhQ9TupSa1DYWHAVn6ZPkRq1VpzYhAAA&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -876,7 +969,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 118.35443037974682%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAACQBQCdASoUABgAPtFaqE4oJKOiKAqpABoJbACsMzQ156r+KoAkcX6eK9uNR6h5qKzmRilSAAD+szybexDecZbQjadsKEoX+tXycAnF1WVJcIYx8WPeNbNILHeogmgzoGeKWtq3P/yFUYRhviKQcUIRVB7Wf5PQgcDeA4plGn+lYJ2Pln6WBTBdIBPqf6DqODJZPIWdk1O7jO42o93zTxv86pI58ogMI+OSfRQN0AxWgGLXYVyQ682SYYF4pHefQG0AAA==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 118.35443037974682%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAAAQBgCdASoUABgAPtFSpU2oJCMiMBgIAQAaCWwAnTLVNJe18QY+MAkI8SxdW+/W4KrpkWHlcghjpoAA/rM8m3sQ3nI8oARDl+iyw8mmduo6Sy1RrxDWyJaxB6m2Zsj26QaD3epndlIQzA8WF/8hXid29lANQp+51RB9lr+0NbhMzOeLC38yYhONtQn+h82vN/clhHmRfLTr7Wa2/CEuil+y6SCNQnPDuU4UbhOiG4M5DKvqUNIqbLYb9Ga3UZUD8pykKCxg6qSOjBpOzsHNVOhrOYZUKMzZMWrClAAA&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -918,7 +1011,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 41.139240506329116%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQBACdASoUAAgAPtFWo0uoJKMhsAgBABoJaACdMoRwACWZ6EjUtkW70AD+6xEQfuTNR25FAdgqoTjQ/+YLEBS863YNBorD5bPGj1I58ZcE7wInw6viQ3N/6oHv8GqYAAA=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 41.139240506329116%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQAwCdASoUAAgAPtFUo0uoJKMhsAgBABoJaACdMoACs2vfp6Ul/EgA/usRGTtI95CrgO7ZVwpt4P/MFiAp7zzw/jeu6tZ4G74+b5458ZYVAxGitkPOOJsSRtVvX2Cqx79cgmaLWRAAAA==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -1367,7 +1460,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p align=&quot;center&quot;&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/e4c02aa2be2af7d1f37ed142ce32d2fa/b6d17/mime-texthtml.webp&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 66.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoUAA0APtFUo0uoJKMhsAgBABoJZ12AWUETjbA68CMAAP7vCO8CTG56qGhmrcAcIIAkPeJm03DUNxn0mn32iqbJVNy+kM8IAAA=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 66.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQAwCdASoUAA0APtFUo0uoJKMhsAgBABoJZwDImC0H5mnEmAD+7t5PMV5EnV/1GJyjFVDbioSITM5GIZfCoj1FuqNYWVv511uX0hnhAAA=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;browser-request-html-file&quot; title=&quot;browser-request-html-file&quot; src=&quot;/static/e4c02aa2be2af7d1f37ed142ce32d2fa/8aab1/mime-texthtml.webp&quot; srcset=&quot;/static/e4c02aa2be2af7d1f37ed142ce32d2fa/81b7c/mime-texthtml.webp 158w,
 /static/e4c02aa2be2af7d1f37ed142ce32d2fa/6ea66/mime-texthtml.webp 315w,
 /static/e4c02aa2be2af7d1f37ed142ce32d2fa/8aab1/mime-texthtml.webp 630w,
@@ -1404,7 +1497,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p align=&quot;center&quot;&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/fab6b66371f9722e0c637ba0d8452ebe/15a27/node-elem.webp&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 37.34177215189873%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAgCdASoUAAcAPtFUo0uoJKMhsAgBABoJaQAAe/QAAP7wJXbngUoZJZSeWS8AAAA=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 37.34177215189873%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAAcAPtFUpEuoJKOhsAgBABoJaQAAXfDzp7xgAP7uibT4NVwXwiBrGUnlkvAAAAA=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;ul-node-inherits-classes&quot; title=&quot;ul-node-inherits-classes&quot; src=&quot;/static/fab6b66371f9722e0c637ba0d8452ebe/8aab1/node-elem.webp&quot; srcset=&quot;/static/fab6b66371f9722e0c637ba0d8452ebe/81b7c/node-elem.webp 158w,
 /static/fab6b66371f9722e0c637ba0d8452ebe/6ea66/node-elem.webp 315w,
 /static/fab6b66371f9722e0c637ba0d8452ebe/8aab1/node-elem.webp 630w,
@@ -1417,7 +1510,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p align=&quot;center&quot;&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 431px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/37b6c346ae4e840db3ee868d0bf0c0ab/01668/domtree.webp&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 69.62025316455697%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRpwBAABXRUJQVlA4WAoAAAAQAAAAEwAADQAAQUxQSNYAAAABgJtt27Hn+vDbNquo+qpohAySHVJmBDupNYBt23bSqvqPPPEMETEB/NRpEBF5j6Dwt07d8+HJ+XrgX+gWhyfksJtU/mnyKWaLVVetvl9U6ndmFzb6zFCzNbO4sFSGqjEoInLtUKiVn9VoEC81jJI84CgtKSsvsgNuC6qKwwy6FUXD7WBt97wN59DReWvrxdGwi7bznbWPgozjvRMZHRW59TIuhY9ENheEWDofjxtGxkwgl03yp8+lgBLzASg/CW1eP3XiW7146kVTABQi7yLDBF9ExlEBVlA4IKAAAADwAwCdASoUAA4APtFUo0uoJKMhsAgBABoJaQAD4onb89Zrh6CVRDq8AP3R8aKoMDsyxQCP2kaKIH3c9wUR23wqc1qVU4Pcx/Lx04Y4Gj266CQGQWE/HtaEXt+8fO+hTcr15d4IZnXX40UtLINrDFUIOOMDU/y2gaVwxN/OmQ77ayRYytvEb2VVc4b9H4EuN/QTj/16Sqd2vbYYnjGWAAAA&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 69.62025316455697%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnoBAABXRUJQVlA4WAoAAAAQAAAAEwAADQAAQUxQSLcAAAABgFtt2/Lkjtv3x4gnX031t0zBGgziJROk+zsOFaVTuusAGitxeeJZISImgOGrkvQbZfz5RqPZeI5MABgmDNbM8MqIlZOTk9NNYPZkcHpgXZI6wJwGZwbS1rq2CEStta71AznHGMdUghAuG+OYVJaLh5s6HD7cet7t/SHUbx8u/qR9eJMODqQ32Jf+MrmcgUyukM9btxzF5HIZRhaCgUAgUAgwZuS52fDwPTYba2NEf6UNfN/SFgAAVlA4IJwAAAAQBACdASoUAA4APtFUo0uoJKMhsAgBABoJaQAD4inT5CqL/iyi8zMAAADaauIGEpoSJUmWz83/P7lWjFMNUGRhCPelZWn2U+vC5GKSFPcrvmTmYVBXBNhFHD/gOsAp+GE0TG5CeWft5yBLbA9M5qZqT5qH/Xv/01rF4Isuc1X8D5qn16ztmXa8LEOlPx1z/8O4Y//sLtl/2wTgAAA=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Dom Tree&quot; title=&quot;Dom Tree&quot; src=&quot;/static/37b6c346ae4e840db3ee868d0bf0c0ab/01668/domtree.webp&quot; srcset=&quot;/static/37b6c346ae4e840db3ee868d0bf0c0ab/81b7c/domtree.webp 158w,
 /static/37b6c346ae4e840db3ee868d0bf0c0ab/6ea66/domtree.webp 315w,
 /static/37b6c346ae4e840db3ee868d0bf0c0ab/01668/domtree.webp 431w&quot; sizes=&quot;(max-width: 431px) 100vw, 431px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
@@ -1697,7 +1790,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p&gt;위 함수의 시간 복잡도는 O(2^n)이다. 하지만 공간 복잡도는 같지 않다. 콜 스택에 쌓이는 함수는 4단계의 depth를 가지고 있으며 여기서 스택이 클리어되고 쌓이기를 반복하고 더 이상 늘어나지 않는다. 즉 O(4) ⇒ O(1)의 복잡도를 지닌다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CORS란? 그리고 이를 해결하는 방법은?]]></title><description><![CDATA[CORS는 Cross—Origin Resource Sharing(교차 출처 리소스 공유)의 약자이다. 브라우저는 보안상의 이유로 웹 애플리케이션이 리소스를 요청할 때 자신의 출처와 동일한 출처의 리소스만 허락한다.  즉, https://www…]]></description><link>https://gatsbyglass.netlify.app/blog/what-is-cors/</link><guid isPermaLink="false">https://gatsbyglass.netlify.app/blog/what-is-cors/</guid><pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;CORS는 Cross—Origin Resource Sharing(교차 출처 리소스 공유)의 약자이다. 브라우저는 보안상의 이유로 웹 애플리케이션이 리소스를 요청할 때 자신의 출처와 동일한 출처의 리소스만 허락한다. &lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/d99cff176172dfde6fc1c19dc02a0883/99968/cors_overview.webp&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 31.0126582278481%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQAwCdASoUAAYAPtFUo0uoJKMhsAgBABoJYgCdMoADQtr5PxErvEAA/iefwCQvu+rQEkmXGl3veLH+oJU7TUj82WuvPAbeVB65plOl7h/2V0e7W7RUE8PXouMPkoizJKPNlgAA&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 31.0126582278481%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADQAwCdASoUAAYAPtFUo0uoJKMhsAgBABoJZACdMoADU0wK+NgZGiAA/nkxpR4z8LBZjLnrf3hb6Mc4bqh9k+ZPB7pB+0cpZ2yDqvkoFGlg7nS9w/7K/D/RJFV+KawPIaguwxgwCt0Q/VFfsAA=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;CORS의 원리&quot; title=&quot;CORS의 원리&quot; src=&quot;/static/d99cff176172dfde6fc1c19dc02a0883/8aab1/cors_overview.webp&quot; srcset=&quot;/static/d99cff176172dfde6fc1c19dc02a0883/81b7c/cors_overview.webp 158w,
 /static/d99cff176172dfde6fc1c19dc02a0883/6ea66/cors_overview.webp 315w,
 /static/d99cff176172dfde6fc1c19dc02a0883/8aab1/cors_overview.webp 630w,
